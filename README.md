@@ -14,3 +14,4 @@ Através da nossa plataforma, conectamos Produtos FIFO de Indústrias Alimentíc
 ![Catalogo (sujeito a alterações)](https://user-images.githubusercontent.com/102695596/182984114-e8f4399c-95ed-4b28-a8fe-f4bc460bf504.png)
 ![Dúvidas](https://user-images.githubusercontent.com/102695596/182984122-b6fb41a0-cffc-4678-99c4-4008a9a0ed5b.png)
 ![Modal ONG](https://user-images.githubusercontent.com/102695596/182984127-19324061-4911-4f1d-8a1a-bac96480c6ef.png)
+![Modal Parceiro](https://user-images.githubusercontent.com/102695596/182986619-9943db6f-d531-454e-b131-c107997747cb.png)
