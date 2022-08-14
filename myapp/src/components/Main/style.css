@@ -1,8 +1,9 @@
 .main__catalogo{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
-  gap: 50px;
+  margin: 0 50px 0 50px;
+  gap: 60px;
 
 }
 .card__catalogo{
@@ -11,9 +12,9 @@
   flex-direction: column;
   width: 335px;
   height: 485px;
-  background: #C6C5CE;
+  background: #F1F0F5;
   border: none;
-  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  box-shadow: 2px 3px 5px rgb(0 0 0 / 25%);
   border-radius: 47px;
   align-items: center;
   margin-bottom: 110px;
@@ -36,7 +37,8 @@
   height: 68px;
   margin-top: 26px;
   border: none;
-  background: #7A7786;
+  background:  #FFC800;
+    box-shadow: #3c3b3d98 2px 3px 4px ;
   border-radius: 34px;
 
   text-align: center;
@@ -47,7 +49,7 @@
   line-height: 36px;
 
 
- /* background-image: url(../assets/coracao.png);*/
+ background-image: url(../../assets/images/coracao.png);
   background-position:20%;
   background-repeat: no-repeat;
 }
@@ -60,8 +62,9 @@
   height: 68px;
   margin-top: 26px;
   border: none;
-  background: #7A7786;
+  background:  #FFC800;
   border-radius: 34px;
+  box-shadow: #3c3b3d98 2px 3px 4px ;
 
   font-family: 'Poppins';
   font-style: normal;
@@ -69,7 +72,7 @@
   font-size: 24px;
   line-height: 36px;
   
-  /*background-image: url(../assets/delivery.png);*/
+  background-image: url(../../assets/images/delivery.png);
   background-position:15%;
   background-repeat: no-repeat;
   
