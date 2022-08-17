@@ -37,7 +37,7 @@
 .modal__input{
   display: flex;
   justify-content: space-between;
-  padding-right: 15px;
+  padding-right: 25px;
 }
 .input{
 
@@ -47,7 +47,7 @@
   background: white;
   border-radius: 11px;
   border: none;
-  margin-bottom:  15px;
+  margin-bottom: 20px;
   text-align: center;
   font-family: 'Poppins';
   font-style: normal;
