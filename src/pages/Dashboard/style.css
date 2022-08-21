@@ -1,0 +1,187 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins';
+   list-style: none;
+ }
+ .container{
+   width: 100%;
+   height: 100vh;
+   background-color: #F5F5F5;
+   display: flex;
+   justify-content: space-between;
+ }
+ .section_navigate{
+   display: flex;
+   flex-direction: column;
+   margin-left: 50px;
+
+ }
+.logo{
+  margin: auto;
+  width: 162px;
+  margin: 14px;
+}
+.icon{
+  width: 27px;
+  height: 24px;
+  margin-right: 21px;
+  background: #999393;
+  border-radius: 5px;
+}
+.item-navigate-destaque{
+
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  color: #4E4B59;
+  list-style: none;
+  text-decoration: none;
+  background: #C6C5CE;
+  padding:15px ;
+  border-radius:5px ;
+  margin: 36px 20px 20px  20px;
+}
+.item-navigate{
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  color: #4E4B59;
+  list-style: none;
+  text-decoration: none;
+  padding:20px ;
+  border-radius:5px ;
+  margin: 0  20px ;
+ 
+}
+.main_dashboard{
+ margin: 50px 0;
+}
+::placeholder{
+  padding-left: 20px;
+}
+.search{
+  position: relative;
+  width: 265px;
+  height: 41px;
+  left: 60%;
+  border: none;
+  background: #C6C5CE;
+  border-radius: 20.5px;
+}
+.titulo_dashboard{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  margin: 5px 0 90px;
+  color: #33303E;
+  
+}
+.recado-dashboard{
+  display: flex;
+  width: 740px;
+  height: 207px;
+  background: #C6C5CE;
+  border-radius: 11px;
+  margin-bottom: 34px;
+
+}
+.saudacao{
+  display: flex;
+  flex-direction: column;
+  padding: 42px;
+}
+.imagem-saudacao{
+
+  width: 245px;
+  height: 229px;
+  top: 207px;
+  right: 31%;
+  position: fixed;
+  background: #5F5C6B;
+  border-radius: 21px;
+}
+.descricao_recado{
+  width: 348px;
+  height: 72px;
+  padding-top: 10px;
+}
+.titulo_acesso-rapido{
+  margin-bottom: 34px;
+}
+.card_acesso{
+  display: flex;
+  justify-content: space-around;
+}
+.card_acesso_itens{
+  display: flex;
+  flex-direction: column;
+  width: 167px;
+  height: 195px;
+  background: #C6C5CE;
+  border-radius: 16px;
+  align-items: center;
+  
+}
+.image_item{
+  width: 69px;
+ height: 71px;
+ margin:34px  0 34px;
+
+}
+.ranking{
+  width: 367px;
+  height: 100vh;
+  background: #C6C5CE;
+  padding: 40px 30px ;
+}
+.titulo_ranking{
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  padding-bottom:  32px;
+}
+
+.button_ranking{
+  width: 149px;
+  height: 40px;
+  background: #7A7786;
+  border-radius: 6px;
+  border: none;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.itens_ranking{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  height: 64px;
+  padding-right: 30px;
+}
+
+.itens_ranking-destaque{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  height: 64px;
+  padding-right: 30px;
+  border-radius: 6px;
+  background: #FFFFFF;
+  box-shadow: 0px 8px 20px -2px rgba(43, 37, 63, 0.1);
+}
+.kg{
+  font-weight: bold;
+}
