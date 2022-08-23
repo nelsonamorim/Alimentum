@@ -1,3 +1,9 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .modais{
   display: flex;
   justify-content: center;
@@ -7,19 +13,14 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 40px;
-  width: 450px;
-  height: 300px;
+  padding-left: 30px;
+  width: 460px;
+  height: 400px;
   margin-bottom: 50px;
   background: linear-gradient(99.31deg, #06B694 7.94%, #00D7D7 95.32%);
 }
-.modal__nome{
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 25px;
-
-   color:white;
+.modal__logo{
+  width: 120px;
 }
 
 .modal__description{
@@ -42,7 +43,7 @@
 .input{
 
   width: 180px;
-  height: 40px;
+  height: 30px;
 
   background: white;
   border-radius: 11px;
@@ -59,23 +60,25 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 300px;
+  width: 320px;
   height: 50px;
  
   border: none;
+  border-radius: 12px;
   
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 60px;
-
-  background: #FFC800;
-  border-radius: 11px;
-  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.514);
+  color: rgb(12, 12, 12);
+  background-color: white;
+  /*background: linear-gradient(99.7deg, #04e9bb 5.04%, #0adac8 63.46%, #03dddd 100.54%);*/
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
 }
 .button{
   display: flex;
   justify-content: center;
+ 
 }
 
