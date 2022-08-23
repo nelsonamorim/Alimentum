@@ -1,5 +1,8 @@
 import './style.css'
+// import Modal from "react-modal";
 import logo from '../../assets/catalogo/logo.png';
+
+// Modal.setAppElement("#root");
 
 export default function Modal (){
 return(
