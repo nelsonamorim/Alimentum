@@ -1,0 +1,161 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	position: relative;
+	width: 1440px;
+	height: 904px;
+	background: #fbfbfb;
+}
+header.topo {
+	position: absolute;
+	width: 1212px;
+	height: 55px;
+}
+header.topo h3 {
+	position: absolute;
+	width: 162px;
+	height: 55px;
+	left: 189px;
+	top: 50px;
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 18px;
+	letter-spacing: -0.01em;
+	color: #494949;
+}
+header.topo p {
+	position: absolute;
+	width: 176px;
+	height: 18px;
+	left: 1151px;
+	top: 45px;
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 18px;
+	letter-spacing: -0.01em;
+	color: #494949;
+}
+img.logo {
+	position: absolute;
+	width: 55px;
+	height: 55px;
+	left: 115px;
+	top: 32px;
+}
+img.duvidas {
+	position: absolute;
+	width: 39px;
+	height: 38px;
+	left: 1104px;
+	top: 40px;
+}
+div.login {
+	position: absolute;
+	width: 384px;
+	height: 298px;
+}
+div.login h1 {
+	left: 112px;
+	top: 191px;
+	position: absolute;
+	width: 471px;
+	height: 104px;
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 52px;
+	letter-spacing: -0.01em;
+	color: #33303e;
+}
+form.formulario {
+	position: absolute;
+	width: 384px;
+	height: 298px;
+	left: 112px;
+	top: 335px;
+}
+label[for="Email"],
+label[for="Password"],
+label.conectado {
+	width: 67px;
+	height: 18px;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	text-align: center;
+	color: #4e4b59;
+}
+label.conectado {
+	width: 143px;
+	height: 18px;
+	vertical-align: super;
+	padding: 10px;
+}
+input.checkbox {
+	box-sizing: border-box;
+	width: 24px;
+	height: 24px;
+	border: 1px solid #5f5c6b;
+	border-radius: 5px;
+	cursor: pointer;
+}
+#email,
+#password {
+	box-sizing: border-box;
+	width: 384px;
+	height: 56px;
+	border: 1px solid #33303e;
+	border-radius: 6px;
+	margin-bottom: 24px;
+}
+button {
+	/*display: inline-block;
+	background-color: #33303e;
+	border: none;
+	padding: 15 px;
+	width: 100%;
+	border-radius: 10px;
+	font: 15px;*/
+	box-sizing: border-box;
+	width: 384px;
+	height: 56px;
+	background: #33303e;
+	border: 1px solid #33303e;
+	border-radius: 6px;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	letter-spacing: -0.005em;
+	color: #ffffff;
+	margin-top: 36px;
+	cursor: pointer;
+}
+article.illustra {
+	position: absolute;
+	width: 808px;
+	height: 711px;
+	left: 700px;
+	top: 78px;
+}
+.illustra img {
+	position: absolute;
+	width: 714px;
+	height: 679px;
+	left: 26px;
+	top: 32px;
+	border-radius: 78px 0 0 78px;
+	object-fit: cover;
+}
