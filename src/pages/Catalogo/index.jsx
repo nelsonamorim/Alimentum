@@ -15,7 +15,7 @@ import beterraba from '../../assets/catalogo/beterraba.png';
 import coracao from  '../../assets/catalogo/coracao.png';
 import delivery from  '../../assets/catalogo/delivery.png';
 import Modalparceiro from "../../components/Modalparceiro";
-import ModalONG from "../../components/ModalONG";
+// import ModalONG from "../../components/ModalONG";
 
 import './style.css';
 import {useState} from "react";
@@ -144,7 +144,7 @@ export default function Catalogo (){
               <img className="icone-doar" src= {coracao} alt="icone-doar" />Doar</button>
               <button className='button__receber'>
               <img className="icone-doar" src= {delivery} alt="icone-doar" />Receber</button>
-             
+
             </div>            
           </main>
        </Container>
