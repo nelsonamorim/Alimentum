@@ -123,7 +123,6 @@ export default function Catalogo (){
             </div>            
           </main>
        </Container>
-        <Modalparceiro/> 
     </div>
 
 
