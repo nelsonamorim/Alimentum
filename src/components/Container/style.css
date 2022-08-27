@@ -10,3 +10,12 @@
   width: 100vw;
   background: linear-gradient(180deg, rgba(252, 252, 252, 0.25) 0%, rgba(6, 190, 163, 0.25) 100%);
 }
+.container-parceiro{
+  display: flex;
+  justify-content: center;
+   position: absolute;
+    width: 100vw;
+   filter: blur(5px);
+   background-color: chartreuse;
+   
+}

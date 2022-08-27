@@ -25,6 +25,7 @@ export default function Catalogo (){
     <div>
         <Container>
          <Header/>
+         <div className="container-catalogo">
          <main className='main__catalogo'>
             <div className='card__catalogo'>
               <h2 className='card__title'>Laranja - 7kg</h2>
@@ -122,6 +123,7 @@ export default function Catalogo (){
 
             </div>            
           </main>
+          </div>
        </Container>
     </div>
 

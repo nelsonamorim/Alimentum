@@ -4,7 +4,7 @@ import logo from '../../assets/catalogo/logo.png';
 export default function Modalparceiro(props){
 return(
     <div className='container-parceiro'>
-      <section className='modais'>
+      <section className='modal'>
         <div className='modal-parceiro'>
           <img className='modal__logo'src={logo} alt="logo" />
              <h1 className='modal__description'>Faça sua doação aqui</h1>
