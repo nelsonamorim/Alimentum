@@ -15,52 +15,27 @@ import beterraba from '../../assets/catalogo/beterraba.png';
 import coracao from  '../../assets/catalogo/coracao.png';
 import delivery from  '../../assets/catalogo/delivery.png';
 import Modalparceiro from "../../components/Modalparceiro";
-// import ModalONG from "../../components/ModalONG";
-
+import ModalONG from "../../components/ModalONG";
+ import * as React from 'react'
 import './style.css';
-import {useState} from "react";
-
-import Modal from 'react-modal';
-Modal.setAppElement('#modal-parceiro');
-
-function Parceiro() {
-  const [modalIsOpen, setIsOpen] = useState(false);
-
-  function openModal() {
-    setIsOpen(true);
-  }
-
-  function closeModal() {
-    setIsOpen(false);
-  }
-  <Modalparceiro
-  isOpen={modalIsOpen}
-  onRequestClose={closeModal}
-  contentlabel = "Example Modal"
-  overlayClassName = "modal-overlay"
-  className ="modal-parceiros">
-
-</Modalparceiro>
- }
 
 export default function Catalogo (){
+   const [showModal,setShowModal] = React.useState(false);
   return(
     <div>
         <Container>
          <Header/>
-
          <main className='main__catalogo'>
             <div className='card__catalogo'>
               <h2 className='card__title'>Laranja - 7kg</h2>
               <img className='card__image' src={laranja} alt="Laranja"/>
-              <button id="doar" onClick={Parceiro}className='button__doar'>
+               <button onClick={() => setShowModal(true)} id="doar"className='button__doar'>
               <img className="icone-doar" src= {coracao} alt="icone-doar" /> Doar</button>
-            
+              {showModal && <Modalparceiro setShowModal={setShowModal} />}
               <button 
               className='button__receber'>
               <img className="icone-doar" src= {delivery} alt="icone-doar" />Receber</button>
             </div>
-
             <div className='card__catalogo'>
               <h2 className='card__title'>Banana - 4kg</h2>
               <img className='card__image' src={banana} alt="Banana"/>
@@ -148,7 +123,7 @@ export default function Catalogo (){
             </div>            
           </main>
        </Container>
-       <Modalparceiro/>
+        <Modalparceiro/> 
     </div>
 
 

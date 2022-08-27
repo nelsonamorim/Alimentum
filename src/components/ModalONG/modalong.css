@@ -3,11 +3,18 @@
    margin: 0;
    box-sizing: border-box;
  }
+
+ .container-modal{
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
  
+ }
  .modais{
    display: flex;
-   justify-content: center;
-   gap: 20px;
+   justify-content: center;  
+
  }
  .modal-ongs{
   
@@ -18,7 +25,6 @@
    width: 460px;
    height: 400px;
    margin-bottom: 50px;
-   /*background: linear-gradient(99.31deg, #06B694 7.94%, #00D7D7 95.32%);*/
  }
  .modal__logo{
    width: 120px;
