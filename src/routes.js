@@ -5,6 +5,7 @@ import {
 } from 'react-router-dom';
 
 import Catalogo from './pages/Catalogo';
+import Dashboard from './pages/Dashboard';
 import FormularioMercado from './pages/FormularioMercado';
 
 export default function MyRoutes() {
@@ -13,6 +14,7 @@ export default function MyRoutes() {
             <Routes>
                 <Route path="/catalogo" element={<Catalogo />} />
                 <Route path="/formulario-mercado" element={<FormularioMercado />} />
+                <Route path="/dashboard" element={<Dashboard/>}/>
             </Routes>
         </BrowserRouter>
     );
