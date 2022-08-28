@@ -15,7 +15,7 @@ import beterraba from '../../assets/catalogo/beterraba.png';
 import coracao from  '../../assets/catalogo/coracao.png';
 import delivery from  '../../assets/catalogo/delivery.png';
 import Modalparceiro from "../../components/Modalparceiro";
-import ModalONG from "../../components/ModalONG";
+// import ModalONG from "../../components/ModalONG";
  import * as React from 'react'
 import './style.css';
 
