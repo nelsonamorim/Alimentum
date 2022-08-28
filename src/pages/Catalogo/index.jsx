@@ -22,7 +22,7 @@ import './style.css';
 export default function Catalogo (){
    const [showModal,setShowModal] = React.useState(false);
   return(
-    <div>
+    <div >
         <Container>
          <Header/>
          <div className="container-catalogo">
