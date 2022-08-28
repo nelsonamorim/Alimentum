@@ -1,0 +1,169 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container-login {
+	display: flex;
+	flex-direction: column;
+
+	/* justify-content: space-evenly; */
+
+	width: 100%;
+	/* height: 100vh; */
+	background: #F1F0F5;
+}
+
+.topo-login{
+	display: flex;
+}
+
+.duvidas-login{
+	display: flex;
+
+	margin-left: 690px;
+	margin-top: 40px;
+	margin-right: 110px;
+	margin-bottom: 44px;
+}
+
+
+.logo-login{
+	margin-top: 52px;
+	margin-left: 99px;
+	margin-bottom: 86px;
+}
+
+
+
+
+
+.icon-duvidas-login{
+	width: 38px;
+	height: 38px;
+	
+}
+
+
+.text-duvidas {
+	/* position: absolute; */
+	width: 176px;
+	height: 18px;
+	left: 1151px;
+	top: 45px;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 18px;
+	letter-spacing: -0.01em;
+	color: #494949;
+}
+
+.menu-login{
+	display: flex;
+}
+
+.menu-form-login{
+	flex-direction: column;
+	margin-left: 112px;
+}
+
+
+.title-form-login{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 130%;
+	/* or 52px */
+
+	letter-spacing: -0.01em;
+
+	color: #06B694;
+}
+
+.formulario-menu-login{
+	display: flex;
+	flex-direction: column;
+
+	margin-top: 11px;
+	margin-right: 230px;
+}
+
+
+
+
+label[for="Email"],
+label[for="Password"],
+label.conectado {
+	width: 67px;
+	height: 18px;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	text-align: center;
+	color: #4e4b59;
+}
+label.conectado {
+	width: 143px;
+	height: 18px;
+	vertical-align: super;
+	padding: 10px;
+}
+input.checkbox {
+	/* box-sizing: border-box; */
+	width: 24px;
+	height: 24px;
+	border: 1px solid #5f5c6b;
+	border-radius: 5px;
+	cursor: pointer;
+}
+#email,
+#password {
+	/* box-sizing: border-box; */
+	width: 384px;
+	height: 56px;
+	border: 1px solid #33303e;
+	border-radius: 6px;
+	margin-bottom: 24px;
+}
+button {
+	/*display: inline-block;
+	background-color: #33303e;
+	border: none;
+	padding: 15 px;
+	width: 100%;
+	border-radius: 10px;
+	font: 15px;*/
+	/* box-sizing: border-box; */
+	width: 384px;
+	height: 56px;
+	background: #33303e;
+	border: 1px solid #33303e;
+	border-radius: 6px;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	letter-spacing: -0.005em;
+	color: #ffffff;
+	margin-top: 36px;
+	cursor: pointer;
+}
+
+.banner-login {
+	width: 714px;
+	height: 654px;
+	left: 26px;
+	top: 44px;
+
+	margin-bottom: 128px;
+	border-radius: 78px 0 0 78px;
+	object-fit: cover;
+}
