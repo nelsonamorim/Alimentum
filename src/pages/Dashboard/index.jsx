@@ -6,12 +6,13 @@ import rectangle from "../../assets/dashboard/rectangle-1.png";
 import elipseranking from "../../assets/dashboard/elipse-ranking.png";
 import award from "../../assets/dashboard/award.png";
 import awardstar from "../../assets/dashboard/award-star.png";
+import hortfruit from "../../assets/dashboard/hortfruit.png"
 
 import './style.css';
 
 export default function Dashboard(){
    return(
-      <div className="container">
+      <div className="container-dashboard">
   <section className="section_navigate">
     <span>
       <img className="logo" src={logo} alt="logo" />
@@ -57,10 +58,12 @@ export default function Dashboard(){
         <p className="descricao_recado">
           Utilize o painel para gerenciar todas as suas doações e acompanhar
           suas comidas arrecadadas
-        </p>
-        <div className="imagem-saudacao" />
+        </p> 
+          </div>
+        <div />
+        <img className="hortfruit" src={hortfruit} alt="" />
       </div>
-    </div>
+ 
     <h2 className="titulo_acesso-rapido">Acesso Rápido</h2>
 
     <ul className="card_acesso">
