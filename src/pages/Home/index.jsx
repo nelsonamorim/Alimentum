@@ -8,6 +8,9 @@ import logoPage from '../../assets/home/logoPage.png';
 import equipe from '../../assets/home/Fotos-Equipe.png';
 import elipse from '../../assets/home/elipse.png';
 import bolinhas from '../../assets/home/bolinhas.png';
+import rectangle from '../../assets/home/Rectangle.png';
+import line1 from '../../assets/home/line-1.png';
+import line2 from '../../assets/home/line-2.png';
 
 function Home(){
    return(
@@ -161,7 +164,78 @@ function Home(){
       <img className='bolinhas' src={bolinhas} alt="bolinhas do carrossel" />
     </div>
     <div className='page4'>
+      <div className='main-page4'>
+        <div className='group-text-page4'>
+          <p className='text1-page4'>Faça seu cadastro</p>
+          <p className='text2-page4'>Passo 1</p>
+          <p className='description-page3'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Maxime mollitia, molestiae quas vel sint commodi
+            repudiandae consequuntur voluptatum laborum numquam
+            blanditiis harum quisquam eius sed odit
+            fugiat iusto fuga praesentium optio, eaque rerum!v</p>
+            <button className='button-page4'>Cadastre-se!</button>
+        </div>
+        <div className='image-page4'>
+        <img src={rectangle} alt="retangulo-verde" />
+       </div>
+      </div>
+      <div className='line1-page4'>
+        <img  src={line1} alt="linha de conexão" />
+      </div>
 
+      <div className='main-page4'>
+      <div className='image-page4'>
+        <img src={rectangle} alt="retangulo-verde" />
+       </div>
+        <div className='group-text-page4'>
+          <p className='text2-page4'>Passo 2</p>
+          <p className='description-page3'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Maxime mollitia, molestiae quas vel sint commodi
+            repudiandae consequuntur voluptatum laborum numquam
+            blanditiis harum quisquam eius sed odit
+            fugiat iusto fuga praesentium optio, eaque rerum!v</p>
+            <button className='button-page4'>Cadastre-se!</button>
+        </div>
+      </div>
+      <div className='line1-page4'>
+        <img  src={line2} alt="linha de conexão" />
+      </div>
+
+
+      <div className='main-page4'>
+        <div className='group-text-page4'>
+          <p className='text2-page4'>Passo 3</p>
+          <p className='description-page3'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Maxime mollitia, molestiae quas vel sint commodi
+            repudiandae consequuntur voluptatum laborum numquam
+            blanditiis harum quisquam eius sed odit
+            fugiat iusto fuga praesentium optio, eaque rerum!v</p>
+            <button className='button-page4'>Cadastre-se!</button>
+        </div>
+        <div className='image-page4'>
+        <img src={rectangle} alt="retangulo-verde" />
+       </div>
+      </div>
+      <div className='line1-page4'>
+        <img  src={line1} alt="linha de conexão" />
+      </div>
+
+      
+      <div className='main-page4'>
+      <div className='image-page4'>
+        <img src={rectangle} alt="retangulo-verde" />
+       </div>
+        <div className='group-text-page4'>
+          <p className='text2-page4'>Passo 4</p>
+          <p className='description-page3'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Maxime mollitia, molestiae quas vel sint commodi
+            repudiandae consequuntur voluptatum laborum numquam
+            blanditiis harum quisquam eius sed odit
+            fugiat iusto fuga praesentium optio, eaque rerum!v</p>
+            <button className='button-page4'>Cadastre-se!</button>
+        </div>
+      </div>
+      
     </div>
   </main>
 </div>
