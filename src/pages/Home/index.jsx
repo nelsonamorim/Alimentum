@@ -32,7 +32,7 @@ function Home(){
       <button className="menu__item btn-signin">Login</button>
     </nav>
   </header>
-  <main>
+  <main className='main-home'>
     <div className="page1">
       <div className="page-main">
         <div className="page1-text-center">
