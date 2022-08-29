@@ -1,12 +1,20 @@
 import './style.css';
 
+import coracao from '../../assets/home/coracao.png';
+import arrowUp from '../../assets/home/arrow-up.png';
+import imgPage from '../../assets/home/imgPage.png';
+import ilustracao from '../../assets/home/ilustration.png';
+import logoPage from '../../assets/home/logoPage.png';
+import equipe from '../../assets/home/Fotos-Equipe.png';
+import elipse from '../../assets/home/elipse.png';
+import bolinhas from '../../assets/home/bolinhas.png';
+
 function Home(){
    return(
       <div className="container-home">
   <header className="header-home">
     <a href="#" className="link-default header__logo">
-      <p className="logo-A"> A</p>
-      <p>Alimentum </p>
+     <img src={logoPage} alt="logo" />
     </a>
     <nav className="header__menu">
       <a className="link-default menu__item menu__item-active" href="#">
@@ -25,45 +33,31 @@ function Home(){
     <div className="page1">
       <div className="page-main">
         <div className="page1-text-center">
-          <p className="page1-tex1"> Conectando empresas com pessoas </p>
-          <p className="page1-tex2">
-            {" "}
-            Queremos colaborar com zero desperdício{" "}
-          </p>
+          <p className="page1-tex1"> Conectando empresas com ONG's </p>
+          <p className="page1-tex2">Queremos colaborar com <br></br>zero desperdício </p>
         </div>
-        <div className="img-center">
-          <img
-            className="imgPage1"
-            src="./assets/imgPage1.png"
-            alt="Imagem-Frutas"
-          />
+        <div className="image">
+          <img className='img-page' src={imgPage} alt="Imagem-Frutas" />
         </div>
       </div>
       <div className="container-emp-ong">
         <div className="container-emp">
-          <img
-            className="icon-heart1"
-            src="./assets/coracao1.png"
-            alt="Coração com uma mão"
-          />
+          <img className="icon-heart1"src={coracao}alt="Coração com uma mão"/>
           <p className="item-title">Sou empresa </p>
           <p className="item-description"> Quero ser parceiro! </p>
           <button className="btn-registration">Cadastre-se!</button>
           <div className="item__arrow-up">
-            <img src="./assets/ep_arrow-up.png" alt="seta para cima" />
+            <img src={arrowUp} alt="seta para cima" />
           </div>
         </div>
         <div className="container-ong">
-          <img
-            className="icon-heart1"
-            src="./assets/coracao1.png"
-            alt="Coração com uma mão"
+          <img className="icon-heart1"  src={coracao} alt="Coração com uma mão"
           />
           <p className="item-title">Sou ong </p>
           <p className="item-description"> Quero ser parceiro! </p>
           <button className="btn-registration">Cadastre-se!</button>
           <div className="item__arrow-up">
-            <img src="./assets/ep_arrow-up.png" alt="seta para cima" />
+            <img src={arrowUp} alt="seta para cima" />
           </div>
         </div>
       </div>
@@ -104,9 +98,7 @@ function Home(){
       </div>
       <div className="main__page2">
         <img
-          className="img__cruz"
-          src="./assets/imgCruz.png"
-          alt="Coração com uma mão"
+          className="img_equipe"src={equipe} alt="foto da esquipe desenvolvedora"
         />
         <div className="main__page2_right">
           <p className="main__page2__item__1"> Vamos mudar esses números? </p>
@@ -127,6 +119,49 @@ function Home(){
           </p>
         </div>
       </div>
+    </div>
+    <div className='page3'>
+      <div className='main-page3'>
+        <div className='text-page3'>
+            <p className='description-page3'>Conheça o nosso selo de empresa participante!</p>
+            <p className='description2-page3'>Ao ajudar nossas ONG`s você empresa ganha um 
+           selo de empresa comprometida com o zero desperdício</p>
+            <p className='description3-page3'>ajudando na sua reputação e criando um movimento, assim, 
+            levando mais clientes preocupados com sustentabilidade ambiental.</p>
+        </div>
+        <div className='ilustracao-page3'>
+          <img className='ilustracao-smarthphone' src={ilustracao} alt="smarthphone" />
+        </div>
+     </div>
+    </div>
+    <div className='carrossel'>
+      <p className='text-carrossel'>Alimento é o que nos move e desperdiçá-lo não é uma opção​.</p>
+      <div className='group-carrossel'>
+        <div className='card-carrossel'>
+          <div className='elipse-card'>
+            <img  src={elipse} alt=" elipse" />
+            </div>
+          <div className='group-text-card'>
+            <p className='text1-card'>”Essa parceria esta mudando a forma que destinamos alimentos!”</p>
+            <p className='text2-card'>João Reis.<br>
+            </br>CEO Supermercados</p>
+          </div>
+        </div>
+        <div className='card-carrossel'>
+          <div className='elipse-card'>
+            <img  src={elipse} alt=" elipse" />
+            </div>
+          <div className='group-text-card'>
+            <p className='text1-card'>”Essa parceria esta mudando a forma que destinamos alimentos!”</p>
+            <p className='text2-card'>João Reis.<br>
+            </br>CEO Supermercados</p>
+          </div>
+        </div>
+      </div>
+      <img className='bolinhas' src={bolinhas} alt="bolinhas do carrossel" />
+    </div>
+    <div className='page4'>
+
     </div>
   </main>
 </div>
