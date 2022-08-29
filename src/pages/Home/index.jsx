@@ -220,7 +220,6 @@ function Home(){
         <img  src={line1} alt="linha de conexão" />
       </div>
 
-      
       <div className='main-page4'>
       <div className='image-page4'>
         <img src={rectangle} alt="retangulo-verde" />
@@ -235,7 +234,21 @@ function Home(){
             <button className='button-page4'>Cadastre-se!</button>
         </div>
       </div>
-      
+      <footer className='footer-home'>
+        <div className='group-footer-home'>
+            <div className='group-text-footer'>
+              <p>Entre em contato. Preencha esse formulário e tire suas dúvidas!</p>
+              <img src={logoPage} alt="logo" />
+              <p>Credibilidade e ousadia, são algumas das nossas características.</p>
+              <p>Acompanhe nas redes</p>
+            </div>
+            <div className='input'>
+              <input type="text" />
+              <input type="text" />
+              <input type="text" />
+            </div>
+        </div>
+      </footer>
     </div>
   </main>
 </div>

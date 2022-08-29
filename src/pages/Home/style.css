@@ -417,6 +417,7 @@
 .main-page4{
     display: flex;
     justify-content: space-around;  
+    margin-bottom: 117px;
 }
 .group-text-page4{
     width: 40%;
