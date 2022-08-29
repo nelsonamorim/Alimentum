@@ -1,0 +1,244 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins';
+   list-style: none;
+ }
+ .container-dashboard{
+  width: 100%;
+  height: 100vh;
+  background-color: #EBFFFB;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0;
+  flex-wrap: wrap;
+ }
+ .section_navigate{
+   display: flex;
+   flex-direction: column;
+ }
+.logo{
+  margin: auto;
+  width: 162px;
+}
+.icon{
+  width: 27px;
+  height: 24px;
+  margin-right: 21px;
+  border-radius: 5px;
+}
+.item-navigate-destaque{
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  color:#FFFFFF;
+  font-size: 16px;
+  list-style: none;
+  text-decoration: none;
+  background:  #06B694;
+  padding:15px ;
+  border-radius:5px ;
+  margin: 30px 20px;
+}
+.item-navigate{
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  color: #4E4B59;
+  list-style: none;
+  font-size: 16px;
+  text-decoration: none;
+  padding:20px ;
+  border-radius:5px ;
+  margin: 0  20px;
+ 
+}
+.usuario{
+   margin-top: 200px;
+   background-image: url(../../assets/dashboard/elipse-ranking.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position:16%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+.main_dashboard{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+::placeholder{
+  padding-left: 20px;
+    color: #06B694;
+}
+.search{
+  position: relative;
+  width: 265px;
+  height: 41px;
+  left: 60%;
+  background-image: url(../../assets/dashboard/search.png);
+  background-position: 85%;
+  background-repeat: no-repeat;
+  border: 1px solid #06B694;
+  border-radius: 30px;
+}
+.titulo_dashboard{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  margin: 5px 0 90px;
+  color: #06B694;
+  
+}
+.descricao_recado{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  
+  color: #FFFFFF;
+  
+}
+.recado-dashboard{
+  display: flex;
+  justify-content: space-around;
+  width: 730px;
+  height: 207px;
+  font-size: 16px;
+  color: #FFFFFF;
+  background: linear-gradient(100.14deg, #06B694 42.41%, #02CEC3 100.24%);
+  border-radius: 11px;
+  margin-bottom: 34px;
+
+}
+.saudacao{
+  display: flex;
+  flex-direction: column;
+  padding: 42px;
+}
+
+.hortfruit{
+  width: 320px;
+  height: 190px;
+  padding-top: 10px;
+  color: #FFFFFF; 
+  position: relative;
+  top: -40px;
+  right: 15px;
+ 
+}
+.titulo_acesso-rapido{
+  margin-bottom: 34px;
+  color: #06B694;
+  font-size: 24px;
+}
+.card_acesso{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.card_acesso_itens{
+  display: flex;
+  flex-direction: column;
+  width: 167px;
+  height: 195px;
+  background: linear-gradient(147.15deg, #06B694 1.53%, #02CEC3 109.78%);
+  border-radius: 16px;
+  align-items: center;
+  
+}
+.descricao-acesso{
+   font-style: normal;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 22px;
+  
+   color: #FFFFFF;
+   
+}
+.image_item{
+  width: 69px;
+ height: 71px;
+ margin:34px  0 34px;
+
+}
+.ranking{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 367px;
+  height: 800px;
+  background: linear-gradient(171.08deg, #06B694 -5.14%, #01D2CC 100%);
+  padding:30px ;
+}
+.titulo_ranking{
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  padding-bottom:  32px;
+  color: #01473A;
+}
+.group-buttons{
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 20px;
+}
+.button_ranking{
+  width: 149px;
+  height: 40px;
+  background: #DFFDF7;
+  border-radius: 6px;
+  border: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #03836A;
+}
+.itens_ranking{
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+  width: 300px;
+  height: 64px;
+  padding-right: 30px;
+  color: #DFFDF7;
+  
+font-size: 14px;
+
+}
+.ranking-icon{
+   margin-left: 16px;
+}
+.classificacao{
+   display: flex;
+   align-items: center;
+}
+.itens_ranking-destaque{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  height: 64px;
+  padding-right: 30px;
+  border-radius: 6px;
+  background: #DFFDF7;
+  font-size: 14px;
+  box-shadow: 0px 8px 20px -2px rgba(43, 37, 63, 0.1);
+}
+.icone-award{
+   position: relative;
+   z-index: 1; 
+   left: 25px;
+   top: 12px;
+}
+.kg{
+  font-weight: bold;
+}
