@@ -89,8 +89,6 @@ input:placeholder-shown {
 .form-cadastro__parceiro{
   display: flex;
   flex-direction: column;
-
-  /* justify-content: center; */
   align-items: flex-start;
   
   padding: 0.8rem 0rem 0rem;
