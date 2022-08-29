@@ -53,7 +53,7 @@ function Home(){
             <img src={arrowUp} alt="seta para cima" />
           </div>
         </div>
-        <div className="container-ong">
+        <div className="container-ong-home-modal">
           <img className="icon-heart1"  src={coracao} alt="Coração com uma mão"
           />
           <p className="item-title">Sou ong </p>
