@@ -15,12 +15,13 @@ import beterraba from '../../assets/catalogo/beterraba.png';
 import coracao from  '../../assets/catalogo/coracao.png';
 import delivery from  '../../assets/catalogo/delivery.png';
 import Modalparceiro from "../../components/Modalparceiro";
-// import ModalONG from "../../components/ModalONG";
+import ModalONG from "../../components/ModalONG";
 import * as React from 'react'
 import './style.css';
 
 export default function Catalogo (){
    const [showModal,setShowModal] = React.useState(false);
+   const [showModalONG,setShowModalONG] = React.useState(false);
   return(
     <div >
         <Container>
@@ -31,9 +32,10 @@ export default function Catalogo (){
               <h2 className='card__title'>Laranja - 7kg</h2>
               <img className='card__image' src={laranja} alt="Laranja"/>
               {showModal &&  <Modalparceiro setShowModal={setShowModal}/>}
+              {showModalONG &&  <ModalONG setShowModal={setShowModalONG}/>}
                <button onClick={() => setShowModal(true)} className='button__doar'>
               <img className="icone-doar" src= {coracao} alt="icone-doar" /> Doar</button>
-              <button onClick={() => setShowModal(true)}className='button__receber'>
+              <button onClick={() => setShowModalONG(true)}className='button__receber'>
               <img className="icone-doar" src= {delivery} alt="icone-doar" />Receber</button>
             </div>
             <div className='card__catalogo'>
