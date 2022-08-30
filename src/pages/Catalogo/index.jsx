@@ -43,7 +43,7 @@ export default function Catalogo (){
               <img className='card__image' src={banana} alt="Banana"/>
               <button onClick={() => setShowModal(true)} className='button__doar'> 
               <img className="icone-doar" src= {coracao} alt="icone-doar" />Doar</button>
-              <button onClick={() => setShowModal(true)}className='button__receber'>
+              <button onClick={() => setShowModalONG(true)}className='button__receber'>
               <img className="icone-doar" src= {delivery} alt="icone-doar" />Receber</button>
             </div>
             <div className='card__catalogo'>
@@ -51,7 +51,7 @@ export default function Catalogo (){
               <img className='card__image' src={tomate} alt="Tomate"/>
               <button onClick={() => setShowModal(true)} className='button__doar'> 
               <img className="icone-doar" src= {coracao} alt="icone-doar" />Doar</button>
-              <button onClick={() => setShowModal(true)} className='button__receber'>
+              <button onClick={() => setShowModalONG(true)} className='button__receber'>
               <img className="icone-doar" src= {delivery} alt="icone-doar" />Receber</button>
             </div>
             <div className='card__catalogo'>
@@ -59,7 +59,7 @@ export default function Catalogo (){
               <img className='card__image' src={cebola} alt="Cebola"/>
               <button onClick={() => setShowModal(true)} className='button__doar'>
               <img className="icone-doar" src= {coracao} alt="icone-doar" />Doar</button>
-              <button onClick={() => setShowModal(true)} className='button__receber'>
+              <button onClick={() => setShowModalONG(true)} className='button__receber'>
               <img className="icone-doar" src= {delivery} alt="icone-doar" />Receber</button>
             </div>
             <div className='card__catalogo'>
@@ -67,7 +67,7 @@ export default function Catalogo (){
               <img className='card__image' src={abobora} alt="Abóbora "/>
               <button onClick={() => setShowModal(true)} className='button__doar'>
               <img className="icone-doar" src= {coracao} alt="icone-doar" />Doar</button>
-              <button  onClick={() => setShowModal(true)}className='button__receber'>
+              <button onClick={() => setShowModalONG(true)}className='button__receber'>
               <img className="icone-doar" src= {delivery} alt="icone-doar" />Receber</button>
             </div>
             <div className='card__catalogo'>
@@ -75,7 +75,7 @@ export default function Catalogo (){
               <img className='card__image' src={beterraba} alt="Beterraba"/>
               <button onClick={() => setShowModal(true)} className='button__doar'>
               <img className="icone-doar" src= {coracao} alt="icone-doar" />Doar</button>
-              <button onClick={() => setShowModal(true)} className='button__receber'>
+              <button onClick={() => setShowModalONG(true)}className='button__receber'>
               <img className="icone-doar" src= {delivery} alt="icone-doar" />Receber</button>
             </div>
             <div className='card__catalogo'>
@@ -83,7 +83,7 @@ export default function Catalogo (){
               <img className='card__image' src={batata} alt="Batata a"/>
               <button onClick={() => setShowModal(true)} className='button__doar'>
               <img className="icone-doar" src= {coracao} alt="icone-doar" />Doar</button>
-              <button onClick={() => setShowModal(true)} className='button__receber'>
+              <button onClick={() => setShowModalONG(true)}className='button__receber'>
               <img className="icone-doar" src= {delivery} alt="icone-doar" />Receber</button>
             </div>
             <div className='card__catalogo'>
@@ -91,35 +91,35 @@ export default function Catalogo (){
               <img className='card__image' src={cenoura} alt="Cenoura "/>
               <button  onClick={() => setShowModal(true)}className='button__doar'>
               <img className="icone-doar" src= {coracao} alt="icone-doar" />Doar</button>
-              <button onClick={() => setShowModal(true)} className='button__receber'>
+              <button onClick={() => setShowModalONG(true)} className='button__receber'>
               <img className="icone-doar" src= {delivery} alt="icone-doar" />Receber</button>
             </div><div className='card__catalogo'>
               <h2 className='card__title'>Pepino - 3kg</h2>
               <img className='card__image' src={pepino} alt="Pepino"/>
               <button onClick={() => setShowModal(true)} className='button__doar'>
               <img className="icone-doar" src= {coracao} alt="icone-doar" />Doar</button>
-              <button onClick={() => setShowModal(true)} className='button__receber'>
+              <button onClick={() => setShowModalONG(true)} className='button__receber'>
               <img className="icone-doar" src= {delivery} alt="icone-doar" />Receber</button>
             </div><div className='card__catalogo'>
               <h2 className='card__title'>Mamão- 3kg</h2>
               <img className='card__image' src={mamao} alt="Mamão"/>
               <button onClick={() => setShowModal(true)} className='button__doar'>
               <img className="icone-doar" src= {coracao} alt="icone-doar" />Doar</button>
-              <button onClick={() => setShowModal(true)} className='button__receber'>
+              <button onClick={() => setShowModalONG(true)}className='button__receber'>
               <img className="icone-doar" src= {delivery} alt="icone-doar" />Receber</button>
             </div><div className='card__catalogo'>
               <h2 className='card__title'>Alface - 3kg</h2>
               <img className='card__image' src={alface} alt="Alface"/>
               <button onClick={() => setShowModal(true)}  className='button__doar'>
                 <img className="icone-doar" src= {coracao} alt="" /> Doar</button>
-              <button onClick={() => setShowModal(true)} className='button__receber'>
+              <button onClick={() => setShowModalONG(true)} className='button__receber'>
               <img className="icone-doar" src= {delivery} alt="icone-doar" />Receber</button>
             </div><div className='card__catalogo'>
               <h2 className='card__title'>Maçã - 3kg</h2>
               <img className='card__image' src={maca} alt="Maçã"/>
               <button onClick={() => setShowModal(true)}  className='button__doar'>
               <img className="icone-doar" src= {coracao} alt="icone-doar" />Doar</button>
-              <button onClick={() => setShowModal(true)} className='button__receber'>
+              <button onClick={() => setShowModalONG(true)} className='button__receber'>
               <img className="icone-doar" src= {delivery} alt="icone-doar" />Receber</button>
             </div>            
           </main>
