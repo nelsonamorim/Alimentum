@@ -1,6 +1,7 @@
 import bannerLogin from '../../assets/login/banner-hortifruti-login.png';
 import logoLogin from '../../assets/login/logo-alimentum-login.png';
 import iconDuvidasLogin from '../../assets/login/icon-duvidas-login.png';
+import Checkbox from '../../components/Checkbox';
 
 import './style.css';
 
@@ -32,12 +33,12 @@ export default function Login() {
           </h2>
           <form action="" className="formulario-menu-login">
             <label htmlFor="Email">Email</label>
-            <input type="email" name="email" id="email" />
+            <input type="email" className='input-form-login-email' name="email" id="email" />
             <label htmlFor="Password">Senha</label>
-            <input type="password" name="password" id="password" />
-            <input type="checkbox" className="checkbox" />
-            <label className="conectado">Manter conectado</label>
-            <button>Acessar</button>
+            <input type="password" className='input-form-login-password' name="password" id="password" />
+            <Checkbox className="checkbox-form-login" />
+            <label className="label-conectado">Manter conectado</label>
+            <button className='button-form-login'>Acessar</button>
           </form>
         </div>
         <div className="illustra">
