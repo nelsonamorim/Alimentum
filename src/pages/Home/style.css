@@ -7,8 +7,9 @@
     font-family: 'Poppins';
 }
 
-.link-default {
+.link-default, a {
     text-decoration: none;
+    color: white;
 }
 
 .container-home {
@@ -145,7 +146,7 @@
     background: #0481C2;
 }
 
-.container-ong {
+.container-ong-home-modal {
     width: 50%;
     height: 450px;
     padding-top: 59px;
@@ -470,4 +471,91 @@
 .line1-page4{
     display: flex;
     justify-content: center;
+}
+.footer-home{
+    width: 100%;
+    background: linear-gradient(99.31deg, #06B694 7.94%, #00D7D7 95.32%);
+}
+.group-footer-home{
+    display: flex;
+    justify-content: space-around;
+    padding: 156px 0 ;
+}
+.group-text-footer{
+    width: 80%;
+    padding-left: 150px;
+
+}
+.text-footer-home{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 130%;
+    color: #FFFFFF;
+    padding-bottom: 38px;
+}
+.logo-footer{
+    padding-bottom: 54px;
+}
+.text1-footer-home{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.01em;
+    color: #F8F8FA;
+    padding-bottom: 41px;
+}
+.text2-footer-home{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.01em;
+    color: #F8F8FA;
+    padding-bottom: 41px;
+}
+.text3-footer-home{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.01em; 
+    color: #FFFFFF;
+    
+}
+.input-footer-home{
+    padding-left: 100px;
+}
+
+.input-footer-nome, .input-footer-email{
+    width: 520px;
+    height: 55.11px;
+    background: #F8F8FA;
+    border-radius: 28px;
+    margin-bottom:40px ;
+}
+.textarea-footer{
+    width: 520px;
+    height: 124.98px;
+    background: #F8F8FA;
+    border-radius: 28px;
+}
+.textarea-footer{
+    padding: 20px 10px;
+    border: none;
+
+}
+.links-footer {
+    display: flex;
+    justify-content: flex-start;
+    padding-left:  15px;
+    text-decoration: none;
+    padding-top: 40px;
+    gap: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
 }

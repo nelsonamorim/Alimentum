@@ -53,7 +53,7 @@ function Home(){
             <img src={arrowUp} alt="seta para cima" />
           </div>
         </div>
-        <div className="container-ong">
+        <div className="container-ong-home-modal">
           <img className="icon-heart1"  src={coracao} alt="Coração com uma mão"
           />
           <p className="item-title">Sou ong </p>
@@ -235,19 +235,26 @@ function Home(){
         </div>
       </div>
       <footer className='footer-home'>
-        <div className='group-footer-home'>
+      <div className='group-footer-home'>
             <div className='group-text-footer'>
-              <p>Entre em contato. Preencha esse formulário e tire suas dúvidas!</p>
-              <img src={logoPage} alt="logo" />
-              <p>Credibilidade e ousadia, são algumas das nossas características.</p>
-              <p>Acompanhe nas redes</p>
+              <p className='text-footer-home'>Entre em contato.<br></br> Preencha esse formulário e tire suas dúvidas!</p>
+              <img className='logo-footer' src={logoPage} alt="logo" />
+              <p className='text2-footer-home'>Credibilidade e ousadia, são algumas das <br>
+              </br> nossas características.</p>
+              <p className='text3-footer-home'>Acompanhe nas redes</p>
             </div>
-            <div className='input'>
-              <input type="text" />
-              <input type="text" />
-              <input type="text" />
+            <div className='input-footer-home'>
+              <input className='input-footer-nome' type="text" placeholder='Nome' />
+              <input className='input-footer-email'type="text" placeholder='Email' />
+              <textarea  className='textarea-footer' name="" id="" cols="60" rows="10"placeholder='Mensagem'></textarea>
+              <div className='links-footer'>
+              <a href="">Institucional</a>
+              <a href="">Contato</a>
+              <a href="">Sobre nós</a>
+              <a href="">Politicas de Privacidade</a>
             </div>
-        </div>
+            </div>
+      </div>
       </footer>
     </div>
   </main>
