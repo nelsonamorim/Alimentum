@@ -6,9 +6,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-.container{
+.container-catalogo{
   width: 100vw;
-
-  background-color: #F5F5F5;
-
+  background: linear-gradient(180deg, rgba(252, 252, 252, 0.25) 0%, rgba(6, 190, 163, 0.25) 100%);
 }
