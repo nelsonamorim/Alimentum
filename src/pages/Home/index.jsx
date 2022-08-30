@@ -37,13 +37,13 @@ function Home(){
       <div className="page-main">
         <div className="page1-text-center">
           <p className="page1-tex1"> Conectando empresas com ONG's </p>
-          <p className="page1-tex2">Queremos colaborar com <br></br>zero desperdício </p>
+          <p className="page1-tex2">Queremos colaborar com zero desperdício </p>
         </div>
-        <div className="image">
+        <div className="image-home">
           <img className='img-page' src={imgPage} alt="Imagem-Frutas" />
         </div>
       </div>
-      <div className="container-emp-ong">
+      <div className="container-emp-modal">
         <div className="container-emp">
           <img className="icon-heart1"src={coracao}alt="Coração com uma mão"/>
           <p className="item-title">Sou empresa </p>
@@ -176,7 +176,7 @@ function Home(){
             <button className='button-page4'>Cadastre-se!</button>
         </div>
         <div className='image-page4'>
-        <img src={rectangle} alt="retangulo-verde" />
+        <img className='print-passos' src={rectangle} alt="retangulo-verde" />
        </div>
       </div>
       <div className='line1-page4'>
@@ -185,7 +185,7 @@ function Home(){
 
       <div className='main-page4'>
       <div className='image-page4'>
-        <img src={rectangle} alt="retangulo-verde" />
+        <img className='print-passos' src={rectangle} alt="retangulo-verde" />
        </div>
         <div className='group-text-page4'>
           <p className='text2-page4'>Passo 2</p>
@@ -213,7 +213,7 @@ function Home(){
             <button className='button-page4'>Cadastre-se!</button>
         </div>
         <div className='image-page4'>
-        <img src={rectangle} alt="retangulo-verde" />
+        <img className='print-passos' src={rectangle} alt="retangulo-verde" />
        </div>
       </div>
       <div className='line1-page4'>
@@ -222,7 +222,7 @@ function Home(){
 
       <div className='main-page4'>
       <div className='image-page4'>
-        <img src={rectangle} alt="retangulo-verde" />
+        <img className='print-passos' src={rectangle} alt="retangulo-verde" />
        </div>
         <div className='group-text-page4'>
           <p className='text2-page4'>Passo 4</p>
@@ -237,7 +237,8 @@ function Home(){
       <footer className='footer-home'>
       <div className='group-footer-home'>
             <div className='group-text-footer'>
-              <p className='text-footer-home'>Entre em contato.<br></br> Preencha esse formulário e tire suas dúvidas!</p>
+              <p className='text1-footer-home'>Entre em contato.<br>
+              </br> Preencha esse formulário e tire suas dúvidas!</p>
               <img className='logo-footer' src={logoPage} alt="logo" />
               <p className='text2-footer-home'>Credibilidade e ousadia, são algumas das <br>
               </br> nossas características.</p>
