@@ -3,12 +3,15 @@ import './style.css';
 import coracao from '../../assets/home/coracao.png';
 import arrowUp from '../../assets/home/arrow-up.png';
 import imgPage from '../../assets/home/imgPage.png';
-import ilustracao from '../../assets/home/ilustration.png';
+import selo from '../../assets/home/selo.png';
 import logoPage from '../../assets/home/logoPage.png';
 import equipe from '../../assets/home/Fotos-Equipe.png';
 import elipse from '../../assets/home/elipse.png';
 import bolinhas from '../../assets/home/bolinhas.png';
-import rectangle from '../../assets/home/Rectangle.png';
+import rectangleCadastro from '../../assets/home/rectangle-cadastro.png';
+import rectangleHome from '../../assets/home/rectangle-homepage.png';
+import rectangleDashboard from '../../assets/home/rectangle-dashboard.png';
+import rectangleCatalogo from '../../assets/home/rectangle-catalogo.png';
 import line1 from '../../assets/home/line-1.png';
 import line2 from '../../assets/home/line-2.png';
 
@@ -133,7 +136,7 @@ function Home(){
             levando mais clientes preocupados com sustentabilidade ambiental.</p>
         </div>
         <div className='ilustracao-page3'>
-          <img className='ilustracao-smarthphone' src={ilustracao} alt="smarthphone" />
+          <img className='ilustracao-smarthphone' src={selo} alt="smarthphone" />
         </div>
      </div>
     </div>
@@ -168,15 +171,11 @@ function Home(){
         <div className='group-text-page4'>
           <p className='text1-page4'>Faça seu cadastro</p>
           <p className='text2-page4'>Passo 1</p>
-          <p className='description-page3'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Maxime mollitia, molestiae quas vel sint commodi
-            repudiandae consequuntur voluptatum laborum numquam
-            blanditiis harum quisquam eius sed odit
-            fugiat iusto fuga praesentium optio, eaque rerum!v</p>
+          <p className='description-page3'>Clique no botão cadastre-se e preencha seus dados, se for empresa ou ONG. </p>
             <button className='button-page4'>Cadastre-se!</button>
         </div>
         <div className='image-page4'>
-        <img className='print-passos' src={rectangle} alt="retangulo-verde" />
+        <img className='print-passos' src={rectangleCadastro} alt="retangulo-cadastro" />
        </div>
       </div>
       <div className='line1-page4'>
@@ -185,15 +184,11 @@ function Home(){
 
       <div className='main-page4'>
       <div className='image-page4'>
-        <img className='print-passos' src={rectangle} alt="retangulo-verde" />
+        <img className='print-passos' src={rectangleHome} alt="retangulo-home" />
        </div>
         <div className='group-text-page4'>
           <p className='text2-page4'>Passo 2</p>
-          <p className='description-page3'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Maxime mollitia, molestiae quas vel sint commodi
-            repudiandae consequuntur voluptatum laborum numquam
-            blanditiis harum quisquam eius sed odit
-            fugiat iusto fuga praesentium optio, eaque rerum!v</p>
+          <p className='description-page3'>Depois de fazer seu cadastro, você precisa fazer login na plataforma.</p>
             <button className='button-page4'>Cadastre-se!</button>
         </div>
       </div>
@@ -205,15 +200,12 @@ function Home(){
       <div className='main-page4'>
         <div className='group-text-page4'>
           <p className='text2-page4'>Passo 3</p>
-          <p className='description-page3'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Maxime mollitia, molestiae quas vel sint commodi
-            repudiandae consequuntur voluptatum laborum numquam
-            blanditiis harum quisquam eius sed odit
-            fugiat iusto fuga praesentium optio, eaque rerum!v</p>
+          <p className='description-page3'>Logo depois de fazer o login, você terá acesso a sua dashboard, onde poderá então escolher se quer fazer doação,
+           se for empresa ou se deseja receber doação em caso de ong.</p>
             <button className='button-page4'>Cadastre-se!</button>
         </div>
         <div className='image-page4'>
-        <img className='print-passos' src={rectangle} alt="retangulo-verde" />
+        <img className='print-passos' src={rectangleDashboard} alt="retangulo-verde" />
        </div>
       </div>
       <div className='line1-page4'>
@@ -222,15 +214,12 @@ function Home(){
 
       <div className='main-page4'>
       <div className='image-page4'>
-        <img className='print-passos' src={rectangle} alt="retangulo-verde" />
+        <img className='print-passos' src={rectangleCatalogo} alt="retangulo-verde" />
        </div>
         <div className='group-text-page4'>
           <p className='text2-page4'>Passo 4</p>
-          <p className='description-page3'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Maxime mollitia, molestiae quas vel sint commodi
-            repudiandae consequuntur voluptatum laborum numquam
-            blanditiis harum quisquam eius sed odit
-            fugiat iusto fuga praesentium optio, eaque rerum!v</p>
+          <p className='description-page3'>Aqui é o nosso catalogo,
+           onde poderá escolher o que pretende doar ou o que precisa receber.</p>
             <button className='button-page4'>Cadastre-se!</button>
         </div>
       </div>
