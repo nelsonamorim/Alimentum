@@ -3,73 +3,58 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
 .container-login {
 	display: flex;
 	flex-direction: column;
-
-	/* justify-content: space-evenly; */
-
+	justify-content: space-between;
 	width: 100%;
-	/* height: 100vh; */
 	background: #F1F0F5;
 }
 
 .topo-login{
 	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .duvidas-login{
 	display: flex;
+	padding:  20px;
 	align-items: center;
-
-	margin-left: 650px;
-	margin-top: 40px;
-	margin-right: 110px;
-	margin-bottom: 44px;
 }
-
 
 .logo-login{
-	margin-top: 52px;
-	margin-left: 99px;
-	margin-bottom: 86px;
+margin: 60px 0 50px 99px;
+
 }
-
-
-
-
 
 .icon-duvidas-login{
 	width: 38px;
 	height: 38px;
-
 	margin-right: 11px;
 	
 }
 
 
 .text-duvidas {
-	/* position: absolute; */
 	font-family: 'Poppins' , sans-serif;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 15px;
 	line-height: 18px;
 	letter-spacing: -0.01em;
-
 	color: #06B694;
 }
 
 .menu-login{
 	display: flex;
+	justify-content: space-between;
 }
 
 .menu-form-login{
 	flex-direction: column;
-	margin-left: 112px;
+	padding-left: 90px;
 }
-
 
 .title-form-login{
 	font-family: 'Poppins';
@@ -77,9 +62,6 @@
 	font-weight: 700;
 	font-size: 40px;
 	line-height: 130%;
-	/* or 52px */
-
-	letter-spacing: -0.01em;
 
 	color: #06B694;
 }
@@ -87,12 +69,8 @@
 .formulario-menu-login{
 	display: flex;
 	flex-direction: column;
-
 	margin-top: 11px;
-	margin-right: 230px;
 }
-
-
 
 
 label[for="Email"],
@@ -119,23 +97,15 @@ label.conectado {
 
 
 .illustra{
-	width: 714px;
+	width: 690px;
 	height: 654px;
-
-	margin-bottom: 128px;
-
-	overflow: hidden;
-  /* position: relative; */
 }
 
 .banner-login {
-	width: 714px;
-	height: 654px;
-	
-
-	margin-bottom: 128px;
+	width: 690px;
+	height: 600px;
 	border-radius: 78px 0 0 78px;
-	object-fit: cover;
+	/* object-fit: cover; */
 }
 
 .button-form-login{
@@ -162,7 +132,6 @@ label.conectado {
 	width: 24px;
 	height: 24px;
 	
-
 	border: 1px solid #04BDCC;
 	border-radius: 5px;
 }
