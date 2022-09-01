@@ -8,30 +8,37 @@
    font-family: 'Poppins';
    list-style: none;
  }
- .container{
+ .container-dashboard{
    width: 100%;
+   height: 100vh;
    background-color: #EBFFFB;
    display: flex;
+   padding: 0 auto 10px;
    justify-content: space-between;
  }
  .section_navigate{
    display: flex;
    flex-direction: column;
+   padding-left: 20px;
  }
 .logo{
   margin: auto;
   width: 162px;
+  padding: 30px;
+}
+.profile{
+  padding: 15px ;
 }
 .icon{
   width: 27px;
   height: 24px;
-  margin-right: 21px;
+  margin-right: 20px;
   border-radius: 5px;
 }
 .item-navigate-destaque{
   display: flex;
   align-items: center;
-  justify-content: baseline;
+  justify-content: flex-start;
   color:#FFFFFF;
   font-size: 16px;
   list-style: none;
@@ -65,12 +72,9 @@
    align-items: center;
 
 }
-.main_dashboard{
- margin:0;
-}
 ::placeholder{
   padding-left: 20px;
-    color: #06B694;
+  color: #06B694;
 }
 .search{
   position: relative;
@@ -82,6 +86,7 @@
   background-repeat: no-repeat;
   border: 1px solid #06B694;
   border-radius: 30px;
+  margin-top: 42px;
 }
 .titulo_dashboard{
   font-style: normal;
@@ -94,6 +99,7 @@
 }
 .recado-dashboard{
   display: flex;
+  flex-direction: row;
   width: 740px;
   height: 207px;
   font-size: 16px;
@@ -112,13 +118,11 @@
 
   width: 245px;
   height: 229px;
-  top: 207px;
-  right: 31%;
-  background-image: url(../../assets/dashboard/horfruit.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right;
-  position: fixed;
+  top: 210px;
+  right: 32%;
+  position:fixed;
+  z-index: 3;
+
 
 }
 .descricao_recado{
@@ -164,7 +168,7 @@
 }
 .ranking{
   width: 367px;
-  height: 90vh;
+  height: 100vh;
   background: linear-gradient(171.08deg, #06B694 -5.14%, #01D2CC 100%);
   padding:30px ;
 }
