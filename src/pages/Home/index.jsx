@@ -237,6 +237,7 @@ function Home(){
               <input className='input-footer-nome' type="text" placeholder='Nome' />
               <input className='input-footer-email'type="text" placeholder='Email' />
               <textarea  className='textarea-footer' name="" id="" cols="60" rows="10"placeholder='Mensagem'></textarea>
+              <button className='button-textarea'>Enviar</button>
               <div className='links-footer'>
               <a href="">Institucional</a>
               <a href="">Contato</a>
