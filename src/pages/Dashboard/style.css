@@ -8,7 +8,7 @@
    font-family: 'Poppins';
    list-style: none;
  }
- .container{
+ .container-dashboard{
    width: 100%;
    background-color: #EBFFFB;
    display: flex;
@@ -17,6 +17,7 @@
  .section_navigate{
    display: flex;
    flex-direction: column;
+   padding: 40px;
  }
 .logo{
   margin: auto;
@@ -68,7 +69,7 @@
 
 }
 .main_dashboard{
- margin:0;
+ padding-top: 30px;
 }
 ::placeholder{
   padding-left: 20px;
@@ -166,7 +167,7 @@
 }
 .ranking{
   width: 367px;
-  height: 90vh;
+  height: 100vh;
   background: linear-gradient(171.08deg, #06B694 -5.14%, #01D2CC 100%);
   padding:30px ;
 }

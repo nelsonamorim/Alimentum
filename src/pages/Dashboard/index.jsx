@@ -19,7 +19,7 @@ export default function Dashboard(){
   }
 
    return(
-      <div className="container">
+      <div className="container-dashboard">
   <section className="section_navigate">
     <span>
       <img className="logo" src={logo} alt="logo" />
