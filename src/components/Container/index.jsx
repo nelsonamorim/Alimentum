@@ -3,7 +3,7 @@ import './style.css';
 
 export default function Container({children}){
   return(
-    <div className="container">
+    <div className="container-catalogo">
       {children}
     </div>
   )
