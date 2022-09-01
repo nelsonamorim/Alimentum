@@ -6,10 +6,18 @@ import rectangle from "../../assets/dashboard/rectangle-1.png";
 import elipseranking from "../../assets/dashboard/elipse-ranking.png";
 import award from "../../assets/dashboard/award.png";
 import awardstar from "../../assets/dashboard/award-star.png";
+import {Link, useNavigate} from 'react-router-dom';
 
 import './style.css';
 
 export default function Dashboard(){
+
+  const navigate = useNavigate();
+
+  const toCatalogo = () => {
+    navigate ('/catalogo');
+  }
+
    return(
       <div className="container">
   <section className="section_navigate">
@@ -21,11 +29,11 @@ export default function Dashboard(){
       <img className="icon" src={rectangle} alt="icon" />
       Home
     </a>
-    <a className="item-navigate" href="">
+    <a className="item-navigate item-navigate-ong" onClick = {toCatalogo}>
       <img className="icon" src={rectangle} alt="icon" />
       Sou ONG
     </a>
-    <a className="item-navigate" href="">
+    <a className="item-navigate item-navigate-empresa" onClick = {toCatalogo}>
       <img className="icon" src={rectangle} alt="icon" />
       Sou Empresa
     </a>

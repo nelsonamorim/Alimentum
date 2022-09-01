@@ -14,9 +14,20 @@ import rectangleDashboard from '../../assets/home/rectangle-dashboard.png';
 import rectangleCatalogo from '../../assets/home/rectangle-catalogo.png';
 import line1 from '../../assets/home/line-1.png';
 import line2 from '../../assets/home/line-2.png';
+import {Link, useNavigate} from 'react-router-dom';
 
 function Home(){
-   return(
+  const navigate = useNavigate();
+
+  const toFormularioMercado = () => {
+    navigate ('/formulario-mercado');
+  }
+
+  const toLogin = () => {
+    navigate ('/login');
+  }
+
+  return(
       <div className="container-home">
   <header className="header-home">
     <a href="#" className="link-default header__logo">
@@ -32,7 +43,7 @@ function Home(){
       <a className="link-default menu__item" href="#">
         Contato
       </a>
-      <button className="menu__item btn-signin">Login</button>
+      <button className="menu__item btn-signin" onClick = {toLogin}>Login</button>
     </nav>
   </header>
   <main className='main-home'>
@@ -50,8 +61,8 @@ function Home(){
         <div className="container-emp">
           <img className="icon-heart1"src={coracao}alt="Coração com uma mão"/>
           <p className="item-title">Sou empresa </p>
-          <p className="item-description"> Quero ser parceiro! </p>
-          <button className="btn-registration">Cadastre-se!</button>
+          <p className="item-description"> Quero ser parceiro! </p>          
+          <button className="btn-registration" onClick = {toFormularioMercado}>Cadastre-se!</button>         
           <div className="item__arrow-up">
             <img src={arrowUp} alt="seta para cima" />
           </div>
@@ -61,7 +72,7 @@ function Home(){
           />
           <p className="item-title">Sou ong </p>
           <p className="item-description"> Quero ser parceiro! </p>
-          <button className="btn-registration">Cadastre-se!</button>
+          <button className="btn-registration" onClick = {toFormularioMercado}>Cadastre-se!</button>
           <div className="item__arrow-up">
             <img src={arrowUp} alt="seta para cima" />
           </div>
