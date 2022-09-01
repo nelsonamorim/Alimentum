@@ -8,6 +8,7 @@
 	flex-direction: column;
 	justify-content: space-between;
 	width: 100%;
+	height: 100vh;
 	background: #F1F0F5;
 }
 
