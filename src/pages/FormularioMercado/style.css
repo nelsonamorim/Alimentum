@@ -156,3 +156,17 @@ input:placeholder-shown {
   margin-right: 4.4rem;
   width: 4.8rem;
 }
+
+.btn-enviar-formulario{
+  width: 98px;
+  height: 48px;
+
+  background: #FFFFFF;
+  border: 1px solid #BBBFC1;
+  border-radius: 10px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
