@@ -49,21 +49,6 @@
 
 }
 
-.logo-A {
-    width: 56px;
-    height: 89px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 73px;
-    line-height: 89px;
-    letter-spacing: -0.01em;
-    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent
-}
-
 .header__logo {
     width: 160px;
     display: flex;
