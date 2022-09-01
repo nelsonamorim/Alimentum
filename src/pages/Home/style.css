@@ -61,7 +61,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent
+    /* text: transparent; */
 }
 
 .header__logo {
@@ -239,13 +239,14 @@
     justify-content: space-around;
     align-items: center;
     padding-top: 52px;
+    gap: 32px;
 
 }
 
 .container-item {
     box-sizing: border-box;
     width: 280px;
-    height:160px;
+    height: 147.41px;
     padding-top: 16px;
     border: 1px solid #7A7786;
     border-radius: 17px;
@@ -267,6 +268,7 @@
     font-weight: 400;
     font-size: 16px;
     text-align: center;
+    line-height: 115%;
     color: #5F5C6B;
 }
 
@@ -280,8 +282,8 @@
      width: 500px; 
 }
 .main__page2_right{
-    padding-left: 40px;  
-    width:60%;
+    margin-left: 100px;
+    width:45%;
 }
 .main__page2__item__1 {
     padding-top: 4px;

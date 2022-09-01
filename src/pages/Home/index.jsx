@@ -5,7 +5,7 @@ import arrowUp from '../../assets/home/arrow-up.png';
 import imgPage from '../../assets/home/imgPage.png';
 import selo from '../../assets/home/selo.png';
 import logoPage from '../../assets/home/logoPage.png';
-import equipe from '../../assets/home/Fotos-Equipe.png';
+import equipe from '../../assets/home/Fotos-EquipeIntegrantes.png';
 import elipse from '../../assets/home/elipse.png';
 import bolinhas from '../../assets/home/bolinhas.png';
 import rectangleCadastro from '../../assets/home/rectangle-cadastro.png';
