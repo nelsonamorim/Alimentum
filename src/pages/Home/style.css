@@ -7,9 +7,11 @@
     font-family: 'Poppins';
 }
 
-.link-default {
+.link-default, a {
     text-decoration: none;
+    color: white;
 }
+
 
 .container-home {
     width: 100%;
@@ -33,7 +35,6 @@
 .page-main {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-between;
     padding-left: 50px;
 }
@@ -108,11 +109,12 @@
     line-height: 150%;
     letter-spacing: -0.0005em;
     color: #FFFFFF;
+    padding-bottom: 30px;
 
 }
 
 .page1-tex2 {
-    width: 627px;
+    width: 80%;
     height: 210px;
     padding-top: 30px;
     font-style: normal;
@@ -122,17 +124,22 @@
     letter-spacing: -1px;
     color: #FFFFFF;
 }
-
+.image{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
 .img-page{
-    width: 820px;
-    height: 730px;
+    width: 750px;
+    height: 600px;
+ 
 }
 
-.container-emp-ong {
+.container-emp-modal {
     display: flex;
     position: relative;
     z-index: 3;
-    top: -90px;
+    top: -60px;
     width: 100%;
     padding: 0 150px;
     text-align: center;
@@ -238,43 +245,42 @@
 .container-item {
     box-sizing: border-box;
     width: 280px;
-    height: 147.41px;
-    padding-top: 10px;
-
+    height:160px;
+    padding-top: 16px;
     border: 1px solid #7A7786;
     border-radius: 17px;
     text-align: center;
 }
 
 .container-item__title {
+    
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
-    line-height: 150%;
     color: #000000;
 }
 
 .container-item__description {
     font-style: normal;
+    padding: 0 8px;
     font-weight: 400;
     font-size: 16px;
-    line-height: 130%;
     text-align: center;
     color: #5F5C6B;
 }
 
 .main__page2 {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 200px;
 }
 
 .img_equipe{
-    width: 545px;
-    height: 574.06px;
+     width: 500px; 
 }
 .main__page2_right{
     padding-left: 40px;  
-     width:50%;
+    width:60%;
 }
 .main__page2__item__1 {
     padding-top: 4px;
@@ -299,8 +305,7 @@
 
 .main__page2__item__3 {
     padding-top: 14px;
-    width: 581px;
-    height: 143.26px;
+    width: 100%;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -309,6 +314,7 @@
     color: #000000;
 } 
 .page3{
+    flex-wrap: wrap;
     width: 100%;
 }
 .main-page3{
@@ -347,6 +353,7 @@
     color: #7A7786;
 }
 .ilustracao-page3{
+ 
     padding-right:60px ;
 }
 .ilustracao-smarthphone{
@@ -417,6 +424,7 @@
 .main-page4{
     display: flex;
     justify-content: space-around;  
+    margin-bottom: 117px;
 }
 .group-text-page4{
     width: 40%;
@@ -457,7 +465,6 @@
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line-height: 100%;
     text-align: center;  
     color: #000000;
     width: 234px;
@@ -466,7 +473,94 @@
 .image-page4{
     padding-top: 100px;
 }
+.print-passos{
+    width: 100%;
+
+}
 .line1-page4{
     display: flex;
     justify-content: center;
 }
+.footer-home{
+   
+    width: 100%;
+    background: linear-gradient(99.31deg, #06B694 7.94%, #00D7D7 95.32%);
+}
+.group-footer-home{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 156px 0 ;
+}
+.group-text-footer{
+    width: 70%;
+    padding-left: 150px;
+
+}
+.logo-footer{
+    padding-bottom: 54px;
+}
+.text1-footer-home{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5rem;
+    color: #F8F8FA;
+    padding-bottom: 41px;
+}
+.text2-footer-home{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.01em;
+    color: #F8F8FA;
+    padding-bottom: 41px;
+}
+.text3-footer-home{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.01em; 
+    color: #FFFFFF;
+    
+}
+.input-footer-home{
+    padding-left: 50px;
+}
+
+.input-footer-nome, .input-footer-email{
+    width: 70%;
+    height: 55.11px;
+    background: #F8F8FA;
+    border-radius: 28px;
+    margin-bottom:40px ;
+}
+.textarea-footer{
+    width: 70%;
+    height: 124px;
+    background: #F8F8FA;
+    border-radius: 28px;
+}
+.textarea-footer{
+    padding: 1rem ;
+    border: none;
+    font-size: 16px;
+
+}
+.links-footer {
+    display: flex;
+    justify-content: flex-start;
+    padding:  4rem 1rem;
+    text-decoration: none;
+    gap: 40px;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+ /* @media(max-width: 450px) {
+   .container-home{
+    display: flex;
+    flex-direction: column;
+   }
+  }  */
