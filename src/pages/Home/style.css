@@ -7,6 +7,7 @@
     font-family: 'Poppins';
 }
 
+
 .link-default, a {
     text-decoration: none;
     color: white;
@@ -14,13 +15,14 @@
 
 
 .container-home {
+    max-width: calc(122rem +(1.6rem * 2));
     width: 100%;
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    margin: auto;
+    margin: 0 auto;
 
 }
 .main-home{
@@ -40,6 +42,8 @@
 }
 
 .header-home {
+    position: fixed;
+    z-index: 5;
     width: 100%;
     display: flex;
     justify-content: space-between;

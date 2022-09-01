@@ -130,7 +130,7 @@ function Home(){
       <div className='main-page3'>
         <div className='text-page3'>
             <p className='description-page3'>Conheça o nosso selo de empresa participante!</p>
-            <p className='description2-page3'>Ao ajudar nossas ONG`s você empresa ganha um 
+            <p className='description2-page3'>Ao ajudar nossas ONG's você empresa ganha um 
            selo de empresa comprometida com o zero desperdício</p>
             <p className='description3-page3'>ajudando na sua reputação e criando um movimento, assim, 
             levando mais clientes preocupados com sustentabilidade ambiental.</p>
