@@ -36,7 +36,7 @@ function Home(){
     </nav>
   </header>
   <main className='main-home'>
-    <div className="page1">
+    <div className="container">
       <div className="page-main">
         <div className="page1-text-center">
           <p className="page1-tex1"> Conectando empresas com ONG's </p>
