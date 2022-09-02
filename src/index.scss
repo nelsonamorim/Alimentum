@@ -1,16 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-*{
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins';
 }
-
 :root{
   font-size: 62.5%;
 }
 
+.link-default,
+a {
+    text-decoration: none;
+    color: white;
+}
 
 h1, h2, h3, h4{
   font-family: 'Poppins', sans-serif;
@@ -45,26 +51,19 @@ input:placeholder-shown {
   margin-right: 8.8rem;
 }
 
-.container{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 4.4rem 4.4rem 4.4rem 8.8rem;
-
-  width: 100vw;
-  
-  
-  background: #FFFFFF;
+.container {
+  max-width: calc(121.1rem + (1.6rem * 2));
+  margin: 0 auto;
+  padding: 0 1.6rem;
 }
 
-.title h2{
+h2{
   font-size: normal;
   font-weight: 700;
   font-size: 3.2rem;
 }
 
-.title p{
+ p {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;

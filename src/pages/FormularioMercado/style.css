@@ -45,26 +45,14 @@ input:placeholder-shown {
   margin-right: 8.8rem;
 }
 
-.container{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 4.4rem 4.4rem 4.4rem 8.8rem;
 
-  width: 100vw;
-  
-  
-  /*background: #FFFFFF;*/
-}
-
-.title h2{
+h2{
   font-size: normal;
   font-weight: 700;
   font-size: 3.2rem;
 }
 
-.title p{
+ p{
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
