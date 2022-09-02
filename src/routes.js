@@ -10,6 +10,7 @@ export default function MyRoutes() {
   return (
     <BrowserRouter>
       <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/catalogo" element={<Catalogo />} />
         <Route path="/formulario-mercado" element={<FormularioMercado />} />
         <Route path="/dashboard" element={<Dashboard />} />
