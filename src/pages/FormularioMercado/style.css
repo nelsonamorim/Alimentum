@@ -96,6 +96,7 @@ h2{
 
   width: 45.6rem;
 
+  margin-top: 4.4rem;
   margin-left: 24.55rem;
   margin-right: 24.55rem;
 
@@ -170,6 +171,8 @@ h2{
 }
 
 .muted__button{
+  margin-top: 2.8rem;
   margin-right: 4.4rem;
   width: 4.8rem;
+  cursor: pointer;
 }
