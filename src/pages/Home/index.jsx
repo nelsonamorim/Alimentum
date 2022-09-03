@@ -31,7 +31,7 @@ function Home(){
       <div className="container-home">
   <header className="header-home">
     <a href="#" className="link-default header__logo">
-      <img src={logoPage} alt="logo" />
+      <img className='header-logo__img-home' src={logoPage} alt="logo" />
     </a>
     <nav className="header__menu">
       <a className="link-default menu__item menu__item-active" href="#">
