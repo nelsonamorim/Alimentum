@@ -1,4 +1,3 @@
-
 import './style.scss';
 
 import coracao from '../../assets/home/coracao.png';
@@ -15,10 +14,21 @@ import rectangleDashboard from '../../assets/home/rectangle-dashboard.png';
 import rectangleCatalogo from '../../assets/home/rectangle-catalogo.png';
 import line1 from '../../assets/home/line-1.png';
 import line2 from '../../assets/home/line-2.png';
+import {Link, useNavigate} from 'react-router-dom';
 
 function Home(){
-return(
-<div className="container-home">
+  const navigate = useNavigate();
+
+  const toFormularioMercado = () => {
+    navigate ('/formulario-mercado');
+  }
+
+  const toLogin = () => {
+    navigate ('/login');
+  }
+
+  return(
+      <div className="container-home">
   <header className="header-home">
     <a href="#" className="link-default header__logo">
       <img src={logoPage} alt="logo" />
@@ -33,7 +43,7 @@ return(
       <a className="link-default menu__item" href="#">
         Contato
       </a>
-      <button className="menu__item btn-signin">Login</button>
+      <button className="menu__item btn-signin" onClick = {toLogin}>Login</button>
     </nav>
   </header>
   <main className='main-home'>
@@ -59,7 +69,7 @@ return(
             <img className="icon-heart1" src={coracao}alt="Coração com uma mão" />
             <h3 className="item-title">Sou empresa </h3>
             <p className="item-description"> Quero ser parceiro! </p>
-            <button className="btn-registration">Cadastre-se!</button>
+            <button className="btn-registration" onClick = {toFormularioMercado}>Cadastre-se!</button>
             <div className="item__arrow-up">
               <img src={arrowUp} alt="seta para cima" />
             </div>
@@ -68,7 +78,7 @@ return(
             <img className="icon-heart1" src={coracao} alt="Coração com uma mão" />
             <h3 className="item-title">Sou ong </h3>
             <p className="item-description"> Quero ser parceiro! </p>
-            <button className="btn-registration">Cadastre-se!</button>
+            <button className="btn-registration" onClick = {toFormularioMercado}>Cadastre-se!</button>
             <div className="item__arrow-up">
               <img src={arrowUp} alt="seta para cima" />
             </div>

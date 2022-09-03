@@ -3,12 +3,20 @@ import logoAlimentum from '../../assets/form-mercado/logoAlimentum.png';
 import iconX from '../../assets/form-mercado/iconX.png';
 import barraDeProgresso from '../../assets/form-mercado/progressBar.png';
 import cadeado from '../../assets/form-mercado/cadeado.png';
+import {Link, useNavigate} from 'react-router-dom';
 
 function FormularioMercado() {
+
+  const navigate = useNavigate();
+
+  const toLogin = () => {
+    navigate ('/login');
+  }
+
   return(
-  <div className="container">
+  <div className="container">    
     <div className="logo__container">
-      <img src={logoAlimentum} alt="" />
+      <img src={logoAlimentum} className='img__logo-alimentum' alt="" />
     </div>
     <form className="form-cadastro__parceiro" method="post" action="">
       <div className="progress__bar">
@@ -151,12 +159,15 @@ function FormularioMercado() {
             <option value="TO">TO</option>
           </select>
         </div>
+        <button className='btn-enviar-formulario' onClick = {toLogin}>Enviar</button>
       </div>
     </form>
     <div className="muted__button">
       <img src={iconX} alt="" />
     </div>
-  </div>);
+  </div>
+  );
+  
   
 }
 

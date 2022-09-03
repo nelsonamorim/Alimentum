@@ -5,13 +5,8 @@ Através da nossa plataforma, conectamos Produtos FIFO de Indústrias Alimentíc
 
 ## Screenshots
 
-![Style Guide](https://user-images.githubusercontent.com/102695596/182984128-88e99764-24de-4565-bb81-2c1a2e73d6f1.png)
-![Components](https://user-images.githubusercontent.com/102695596/182984117-36a6f7b0-d398-4390-bab4-9b5ebfae04f5.png)
-![Components Dark-Version](https://user-images.githubusercontent.com/102695596/182984115-c52e13a4-8303-4c83-844b-8a61869ed027.png)
-![Desktop - 1](https://user-images.githubusercontent.com/102695596/182984121-54b1a333-10ab-4cca-8f49-050a1bc9e951.png)
-![Login-01](https://user-images.githubusercontent.com/102695596/182984124-6eab6f1b-7840-41b1-a02a-8a2b6436bde3.png)
-![dashboard](https://user-images.githubusercontent.com/102695596/182984120-9f171a51-717a-4790-aab3-09a943c4ca96.png)
-![Catalogo (sujeito a alterações)](https://user-images.githubusercontent.com/102695596/182984114-e8f4399c-95ed-4b28-a8fe-f4bc460bf504.png)
-![Dúvidas](https://user-images.githubusercontent.com/102695596/182984122-b6fb41a0-cffc-4678-99c4-4008a9a0ed5b.png)
-![Modal ONG](https://user-images.githubusercontent.com/102695596/182984127-19324061-4911-4f1d-8a1a-bac96480c6ef.png)
-![Modal Parceiro](https://user-images.githubusercontent.com/102695596/182986619-9943db6f-d531-454e-b131-c107997747cb.png)
+![home-page](https://user-images.githubusercontent.com/102695596/188005394-e793a1df-569c-4b2a-af00-49d95af5d2e0.png)
+![Propósito](https://user-images.githubusercontent.com/102695596/188005815-7655b64e-75ac-4133-9b2c-ec1398dc943d.png)
+![O que iremos resolver](https://user-images.githubusercontent.com/102695596/188005830-35c3f925-24df-4a8d-b43a-eef7623d2c1b.png)
+![Dados da fome no Brasil](https://user-images.githubusercontent.com/102695596/188005835-4ffc0ecf-fd36-41b3-91e5-b90f95806acf.png)
+![Dashboard](https://user-images.githubusercontent.com/102695596/188005837-48d4d56c-c566-4325-a4e9-544ca4df68ae.png)

@@ -47,6 +47,7 @@
   padding:15px ;
   border-radius:5px ;
   margin: 30px 20px;
+  cursor: pointer;
 }
 .item-navigate{
   display: flex;
@@ -59,6 +60,7 @@
   padding:20px ;
   border-radius:5px ;
   margin: 0  20px;
+  cursor: pointer;
  
 }
 .usuario{

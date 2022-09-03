@@ -2,10 +2,18 @@ import bannerLogin from '../../assets/login/banner-hortifruti-login.png';
 import logoLogin from '../../assets/login/logo-alimentum-login.png';
 import iconDuvidasLogin from '../../assets/login/icon-duvidas-login.png';
 import Checkbox from '../../components/Checkbox';
+import {Link, useNavigate} from 'react-router-dom';
 
 import './style.css';
 
 export default function Login() {
+
+  const navigate = useNavigate();
+
+  const toDashboard = () => {
+    navigate ('/dashboard');
+  }
+
   return(
     <div className="container-login">
       <header className="topo-login">
@@ -38,7 +46,7 @@ export default function Login() {
             <input type="password" className='input-form-login-password' name="password" id="password" />
             <Checkbox className="checkbox-form-login" />
             <label className="label-conectado">Manter conectado</label>
-            <button className='button-form-login'>Acessar</button>
+            <button className='button-form-login' onClick = {toDashboard}>Acessar</button>
           </form>
         </div>
         <div className="illustra">
