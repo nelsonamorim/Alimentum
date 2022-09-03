@@ -18,7 +18,7 @@ function FormularioMercado() {
   }
 
   return(
-  <div className="container">    
+  <div className="container__formulario">    
     <div className="logo__container">
       <img src={logoAlimentum} className='img__logo-alimentum' alt="" />
     </div>
