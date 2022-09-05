@@ -1,5 +1,7 @@
 import './style.scss';
 
+import man from '../../assets/home/man.svg'
+import check from '../../assets/home/check.png'
 import bullet from '../../assets/home/bullet.svg';
 import bullet2 from '../../assets/home/bullet2.svg';
 import bullet3 from '../../assets/home/bullet-3.svg';
@@ -152,21 +154,21 @@ return(
                   <img className="img" src={bullet} alt="foto da esquipe desenvolvedora" />
                 </figure>
                 <p>Criamos a Alimentum uma foodtech sem fins lucrativos.</p>
-                
+
               </li>
               <li className='bullet-content'>
                 <figure>
                   <img className="img" src={bullet2} alt="foto da esquipe desenvolvedora" />
                 </figure>
                 <p>Queremos contribuir com o desenvolvimento sustentável.</p>
-                
+
               </li>
               <li className='bullet-content'>
                 <figure>
                   <img className="img" src={bullet3} alt="foto da esquipe desenvolvedora" />
                 </figure>
                 <p>Queremos alimentar pessoas.</p>
-                
+
               </li>
             </ul>
           </div>
@@ -179,26 +181,97 @@ return(
       <div className="container">
         <div className="wrapper">
           <div className="text-content">
-            <h2 className="subtitle">Conheça o nosso selo de empresa participante!</h2>
-            <p className="title-content">Ao ajudar nossas ONGs você empresa ganha um
-              selo de <span>empresa comprometida</span> com o zero desperdício</p>
-            <p className='description'>ajudando na sua reputação e criando um movimento, assim,
-              levando mais clientes preocupados com sustentabilidade ambiental.</p>
+            <h2 className='title-content'>Conheça o nosso selo de empresa participante!</h2>
           </div>
-          <picture className='area-image'>
-            <img className='img' src={selo} alt="smarthphone" />
-          </picture>
+
+        </div>
+        <div className="wrapper-content">
+          <div className="text-content-one">
+          <div className="content-icon">
+              <div className="icon">
+                <figure>
+                  <img className="img" src={check} alt="foto da esquipe desenvolvedora" />
+                </figure>
+              </div>
+              <div className="text-description">
+                <p>Empresa comprometida com zero desperdício</p>
+              </div>
+            </div>
+            <div className="content-icon">
+              <div className="icon">
+                <figure>
+                  <img className="img" src={check} alt="foto da esquipe desenvolvedora" />
+                </figure>
+              </div>
+              <div className="text-description">
+                <p>Empresa comprometida com zero desperdício</p>
+              </div>
+            </div>
+            <div className="content-icon">
+              <div className="icon">
+                <figure>
+                  <img className="img" src={check} alt="foto da esquipe desenvolvedora" />
+                </figure>
+              </div>
+              <div className="text-description">
+                <p>Empresa comprometida com zero desperdício</p>
+              </div>
+            </div>
+          </div>
+          <div className="area-image">
+            <figure>
+              <img className='img' src={selo} alt="smarthphone" />
+            </figure>
+          </div>
+          <div className="text-content-two">
+            <div className="content-icon">
+              <div className="icon">
+                <figure>
+                  <img className="img" src={check} alt="foto da esquipe desenvolvedora" />
+                </figure>
+              </div>
+              <div className="text-description">
+                <p>Empresa comprometida com zero desperdício</p>
+              </div>
+            </div>
+            <div className="content-icon">
+              <div className="icon">
+                <figure>
+                  <img className="img" src={check} alt="foto da esquipe desenvolvedora" />
+                </figure>
+              </div>
+              <div className="text-description">
+                <p>Empresa comprometida com zero desperdício</p>
+              </div>
+            </div>
+            <div className="content-icon">
+              <div className="icon">
+                <figure>
+                  <img className="img" src={check} alt="foto da esquipe desenvolvedora" />
+                </figure>
+              </div>
+              <div className="text-description">
+                <p>Empresa comprometida com zero desperdício</p>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
 
 
-    <div className='carrossel'>
+    <section className='carrossel'>
+      <div className="container">
+      <div className="wrapper">
+
+     
+
       <p className='text-carrossel'>Alimento é o que nos move e desperdiçá-lo não é uma opção​.</p>
       <div className='group-carrossel'>
         <div className='card-carrossel'>
           <div className='elipse-card'>
-            <img src={elipse} alt=" elipse" />
+            <img src={man} alt=" elipse" />
           </div>
           <div className='group-text-card'>
             <p className='text1-card'>”Essa parceria esta mudando a forma que destinamos alimentos!”</p>
@@ -208,7 +281,7 @@ return(
         </div>
         <div className='card-carrossel'>
           <div className='elipse-card'>
-            <img src={elipse} alt=" elipse" />
+            <img src={man} alt=" elipse" />
           </div>
           <div className='group-text-card'>
             <p className='text1-card'>”Essa parceria esta mudando a forma que destinamos alimentos!”</p>
@@ -216,9 +289,12 @@ return(
               </br>CEO Supermercados</p>
           </div>
         </div>
+        
       </div>
       <img className='bolinhas' src={bolinhas} alt="bolinhas do carrossel" />
-    </div>
+      </div>
+      </div>
+    </section>
     <div className='page4'>
       <div className='main-page4'>
         <div className='group-text-page4'>
