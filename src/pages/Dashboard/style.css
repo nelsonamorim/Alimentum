@@ -10,11 +10,10 @@
  }
  .container-dashboard{
   width: 100%;
-  height: 100vh;
   background-color: #EBFFFB;
   display: flex;
-  justify-content: space-evenly;
-  padding: 20px 0;
+  justify-content: space-around;
+  padding-top: 20px;
   flex-wrap: wrap;
  }
  .section_navigate{
@@ -53,7 +52,6 @@
   color: white;
   background-color: #03836A;
 }
-
 
 .item-navigate{
   display: flex;
@@ -120,7 +118,7 @@
 .recado-dashboard{
   display: flex;
   justify-content: space-around;
-  width: 730px;
+  width: 700px;
   height: 207px;
   font-size: 16px;
   color: #FFFFFF;
@@ -152,9 +150,11 @@
 }
 .card_acesso{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   
 }
+
 .card_acesso_itens{
   display: flex;
   flex-direction: column;
@@ -213,6 +213,7 @@
   line-height: 19px;
   color: #03836A;
 }
+
 .itens_ranking{
   display: flex;
   justify-content: space-around;
@@ -253,3 +254,55 @@ font-size: 14px;
 .kg{
   font-weight: bold;
 }
+
+@media (max-width: 450px){
+  .container-dashboard{
+    margin: 0 auto;
+    display: flex;
+  }
+  .main_dashboard{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  top: 120px;
+  }
+  .section_navigate{
+    width: 80%;
+    margin: 0;
+    padding: 0;
+  }
+  .recado-dashboard{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .saudacao{
+    height: 100%;
+  }
+
+  .hortfruit{
+    position: relative;
+    top: -130px;
+  }
+  .search{
+    width: 40%;
+    position: relative;
+    left: 40%;
+  }
+  .titulo_dashboard, .titulo_acesso-rapido{
+    text-align: center;
+    top: 50%;
+  }
+.usuario{
+  width: 70%;
+  margin-top: 30px;
+}
+.ranking{
+  margin: 0 auto;
+}
+}
+

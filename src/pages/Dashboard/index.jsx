@@ -17,7 +17,7 @@ export default function Dashboard(){
     <span>
       <img className="logo" src={logo} alt="logo" />
     </span>
-    <hr />
+    <hr className="hr" />
     <a className="item-navigate-destaque" href="">
       <img className="icon" src={rectangle} alt="icon" />
       Home
@@ -63,24 +63,22 @@ export default function Dashboard(){
         <div />
         <img className="hortfruit" src={hortfruit} alt="" />
       </div>
- 
-    <h2 className="titulo_acesso-rapido">Acesso Rápido</h2>
 
-    <ul className="card_acesso">
-      <li className="card_acesso_itens">
-        <img className="image_item" src={doar} alt="elipse" />
-        <p className="descricao-acesso">Quero Doar</p>
-      </li>
-      <li className="card_acesso_itens">
-        <img className="image_item" src={delivery}  alt="elipse" />
-        <p className="descricao-acesso">Quero Receber</p>
-      </li>
-      <li className="card_acesso_itens">
-        <img className="image_item" src={elipse} alt="elipse" />
-        <p className="descricao-acesso">Catalogo</p>
-      </li>
-    </ul>
-
+      <h2 className="titulo_acesso-rapido">Acesso Rápido</h2>
+        <ul className="card_acesso">
+          <li className="card_acesso_itens">
+            <img className="image_item" src={doar} alt="elipse" />
+            <p className="descricao-acesso">Quero Doar</p>
+          </li>
+          <li className="card_acesso_itens">
+            <img className="image_item" src={delivery}  alt="elipse" />
+            <p className="descricao-acesso">Quero Receber</p>
+          </li>
+          <li className="card_acesso_itens">
+            <img className="image_item" src={elipse} alt="elipse" />
+            <p className="descricao-acesso">Catalogo</p>
+          </li>
+        </ul>
   </main>
   <section className="ranking">
     <h3 className="titulo_ranking"> 🏆 Ranking</h3>
