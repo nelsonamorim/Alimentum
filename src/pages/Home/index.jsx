@@ -1,7 +1,12 @@
 import './style.scss';
 
-import man from '../../assets/home/man.svg'
-import check from '../../assets/home/check.png'
+import objetivos from '../../assets/home/objetivos.png'
+import four from '../../assets/home/four.png';
+import trhee from '../../assets/home/trhee.png';
+import two from '../../assets/home/two.png';
+import one from '../../assets/home/one.png';
+import man from '../../assets/home/man.svg';
+import check from '../../assets/home/check.png';
 import bullet from '../../assets/home/bullet.svg';
 import bullet2 from '../../assets/home/bullet2.svg';
 import bullet3 from '../../assets/home/bullet-3.svg';
@@ -187,7 +192,7 @@ return(
         </div>
         <div className="wrapper-content">
           <div className="text-content-one">
-          <div className="content-icon">
+            <div className="content-icon">
               <div className="icon">
                 <figure>
                   <img className="img" src={check} alt="foto da esquipe desenvolvedora" />
@@ -263,98 +268,128 @@ return(
 
     <section className='carrossel'>
       <div className="container">
-      <div className="wrapper">
+        <div className="wrapper">
+          <p className='text-carrossel'>Alimento é o que nos move e desperdiçá-lo não é uma opção​.</p>
+          <div className='group-carrossel'>
+            <div className='card-carrossel'>
+              <div className='elipse-card'>
+                <img src={man} alt=" elipse" />
+              </div>
+              <div className='group-text-card'>
+                <p className='text1-card'>”Essa parceria esta mudando a forma que destinamos alimentos!”</p>
+                <p className='text2-card'>João Reis.<br>
+                  </br>CEO Supermercados</p>
+              </div>
+            </div>
+            <div className='card-carrossel'>
+              <div className='elipse-card'>
+                <img src={man} alt=" elipse" />
+              </div>
+              <div className='group-text-card'>
+                <p className='text1-card'>”Essa parceria esta mudando a forma que destinamos alimentos!”</p>
+                <p className='text2-card'>João Reis.<br>
+                  </br>CEO Supermercados</p>
+              </div>
+            </div>
 
-     
-
-      <p className='text-carrossel'>Alimento é o que nos move e desperdiçá-lo não é uma opção​.</p>
-      <div className='group-carrossel'>
-        <div className='card-carrossel'>
-          <div className='elipse-card'>
-            <img src={man} alt=" elipse" />
           </div>
-          <div className='group-text-card'>
-            <p className='text1-card'>”Essa parceria esta mudando a forma que destinamos alimentos!”</p>
-            <p className='text2-card'>João Reis.<br>
-              </br>CEO Supermercados</p>
-          </div>
+          <img className='bolinhas' src={bolinhas} alt="bolinhas do carrossel" />
         </div>
-        <div className='card-carrossel'>
-          <div className='elipse-card'>
-            <img src={man} alt=" elipse" />
-          </div>
-          <div className='group-text-card'>
-            <p className='text1-card'>”Essa parceria esta mudando a forma que destinamos alimentos!”</p>
-            <p className='text2-card'>João Reis.<br>
-              </br>CEO Supermercados</p>
-          </div>
-        </div>
-        
-      </div>
-      <img className='bolinhas' src={bolinhas} alt="bolinhas do carrossel" />
-      </div>
       </div>
     </section>
-    <div className='page4'>
-      <div className='main-page4'>
-        <div className='group-text-page4'>
-          <p className='text1-page4'>Faça seu cadastro</p>
-          <p className='text2-page4'>Passo 1</p>
-          <p className='description-page3'>Clique no botão cadastre-se e preencha seus dados, se for empresa ou ONG.
-          </p>
-          <button className='button-page4'>Cadastre-se!</button>
-        </div>
-        <div className='image-page4'>
-          <img className='print-passos' src={rectangleCadastro} alt="retangulo-cadastro" />
-        </div>
-      </div>
-      <div className='line1-page4'>
-        <img src={line1} alt="linha de conexão" />
-      </div>
-
-      <div className='main-page4'>
-        <div className='image-page4'>
-          <img className='print-passos' src={rectangleHome} alt="retangulo-home" />
-        </div>
-        <div className='group-text-page4'>
-          <p className='text2-page4'>Passo 2</p>
-          <p className='description-page3'>Depois de fazer seu cadastro, você precisa fazer login na plataforma.</p>
-          <button className='button-page4'>Cadastre-se!</button>
-        </div>
-      </div>
-      <div className='line1-page4'>
-        <img src={line2} alt="linha de conexão" />
-      </div>
 
 
-      <div className='main-page4'>
-        <div className='group-text-page4'>
-          <p className='text2-page4'>Passo 3</p>
-          <p className='description-page3'>Logo depois de fazer o login, você terá acesso a sua dashboard, onde poderá
-            então escolher se quer fazer doação,
-            se for empresa ou se deseja receber doação em caso de ong.</p>
-          <button className='button-page4'>Cadastre-se!</button>
-        </div>
-        <div className='image-page4'>
-          <img className='print-passos' src={rectangleDashboard} alt="retangulo-verde" />
+    <section className='s-cadastro'>
+      <div className="container">
+        <div className="wrapper">
+          <div className="text-content">
+            <h2 className='title-content'>Faça seu cadastro</h2>
+            <p className='subtitle-content'>Aqui estão os passos a passos para você se cadastrar na nossa foodtech.</p>
+            <button className='button-page4'>Cadastre-se</button>
+          </div>
+          <div className="modes-cadastro">
+            <div className="mode-item">
+              <div className="modes-itens">
+                <div className="mode">
+                  <figure>
+                    <img className='mode-item' src={one} alt="one" />
+                  </figure>
+                </div>
+                <div className="mode-content">
+                  <h4 className='subtitle'>Passo 1</h4>
+                  <p className='description-content'>Clique no botão cadastre-se e preencha seus dados, se for empresa
+                    ou ONG. </p>
+                </div>
+              </div>
+            </div>
+            <div className="mode-item">
+              <div className="modes-itens">
+                <div className="mode">
+                  <figure>
+                    <img className='mode-item' src={two} alt="one" />
+                  </figure>
+                </div>
+                <div className="mode-content">
+                  <h4 className='subtitle'>Passo 1</h4>
+                  <p className='description-content'>Depois de fazer seu cadastro, você precisa fazer login na
+                    plataforma.</p>
+                </div>
+              </div>
+            </div>
+            <div className="mode-item">
+              <div className="modes-itens">
+                <div className="mode">
+                  <figure>
+                    <img className='mode-item' src={trhee} alt="one" />
+                  </figure>
+                </div>
+                <div className="mode-content">
+                  <h4 className='subtitle'>Passo 1</h4>
+                  <p className='description-content'>Logo depois de fazer o login, você terá acesso a sua dashboard,
+                    onde poderá então escolher se quer fazer doação, se for empresa ou se deseja receber doação em caso
+                    de ong.</p>
+                </div>
+              </div>
+            </div>
+            <div className="mode-item">
+              <div className="modes-itens">
+                <div className="mode">
+                  <figure>
+                    <img className='mode-item' src={four} alt="one" />
+                  </figure>
+                </div>
+                <div className="mode-content">
+                  <h4 className='subtitle'>Passo 1</h4>
+                  <p className='description-content'>Aqui é o nosso catalogo, onde poderá escolher o que pretende doar
+                    ou o que precisa receber.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
         </div>
       </div>
-      <div className='line1-page4'>
-        <img src={line1} alt="linha de conexão" />
+    </section>
+
+    <section className='objetivos'>
+      <div className="container">
+        <div className="wrapper">
+          <div className="text-content-ods">
+            <h2 className='title-content'>Ao se cadastrar você estará contribuindo com os objetivos de desenvolvimento
+              sustentável da ONU</h2>
+          </div>
+          <figure className='area-image-ods'>
+            <img className='mode-item' src={objetivos} alt="one" />
+          </figure>
+        </div>
       </div>
 
-      <div className='main-page4'>
-        <div className='image-page4'>
-          <img className='print-passos' src={rectangleCatalogo} alt="retangulo-verde" />
-        </div>
-        <div className='group-text-page4'>
-          <p className='text2-page4'>Passo 4</p>
-          <p className='description-page3'>Aqui é o nosso catalogo,
-            onde poderá escolher o que pretende doar ou o que precisa receber.</p>
-          <button className='button-page4'>Cadastre-se!</button>
-        </div>
-      </div>
-      <footer className='footer-home'>
+    </section>
+
+    <footer className='footer-home'>
+      <div className="container">
+
         <div className='group-footer-home'>
           <div className='group-text-footer'>
             <p className='text1-footer-home'>Entre em contato.<br>
@@ -376,8 +411,8 @@ return(
             </div>
           </div>
         </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
   </main>
 </div>
 
