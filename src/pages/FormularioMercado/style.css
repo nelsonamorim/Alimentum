@@ -40,6 +40,7 @@ input:placeholder-shown {
   color: #E2E4E5;
 }
 
+<<<<<<< HEAD
 .container{
   display: flex;
   flex-direction: row;
@@ -55,17 +56,34 @@ input:placeholder-shown {
 
 .logo__container{
   margin-right: 8.8rem;
+=======
+
+.container__formulario{
+  display: flex;
+  margin: 0 auto;
+}
+
+.logo__container{
+  margin-top: 4.4rem;
+  margin-left: 8.8rem;
+  width: 31.3rem;
+  height: 5.3rem;
+>>>>>>> d8ffaa1d2eafbf2ec1e48063e968f23750bd466e
 }
 
 
 
+<<<<<<< HEAD
 .title h2{
+=======
+h2{
+>>>>>>> d8ffaa1d2eafbf2ec1e48063e968f23750bd466e
   font-size: normal;
   font-weight: 700;
   font-size: 3.2rem;
 }
 
-.title p{
+ p{
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -91,13 +109,17 @@ input:placeholder-shown {
   display: flex;
   flex-direction: column;
 
-  /* justify-content: center; */
+  justify-content: center;
   align-items: flex-start;
   
   padding: 0.8rem 0rem 0rem;
   gap: 3rem;
 
   width: 45.6rem;
+
+  margin-top: 4.4rem;
+  margin-left: 24.55rem;
+  margin-right: 24.55rem;
 
 }
 
@@ -152,7 +174,27 @@ input:placeholder-shown {
   font-family: 'Inter', sans-serif;
 }
 
+<<<<<<< HEAD
+=======
+
+.btn-enviar-formulario{
+  width: 98px;
+  height: 48px;
+
+  background: #FFFFFF;
+  border: 1px solid #BBBFC1;
+  border-radius: 10px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+>>>>>>> d8ffaa1d2eafbf2ec1e48063e968f23750bd466e
 .muted__button{
+  margin-top: 2.7rem;
   margin-right: 4.4rem;
   width: 4.8rem;
+  cursor: pointer;
 }

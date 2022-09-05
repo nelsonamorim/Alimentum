@@ -1,30 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins';
 }
-
 :root{
   font-size: 62.5%;
+
 }
 
+.link-default,
+a {
+    text-decoration: none;
+    color: white;
+}
 
-h1, h2, h3, h4{
+h1,
+h2,
+h3,
+h4 {
   font-family: 'Poppins', sans-serif;
 }
 
 
-p, label {
+p,
+label {
   font-family: 'Inter', sans-serif;
   font-size: 1.4rem;
 }
 
-input{
+input {
   all: unset;
-  
+
   color: #242426;
   font-size: 1.8rem;
   width: 100%;
@@ -40,6 +50,7 @@ input:placeholder-shown {
   color: #E2E4E5;
 }
 
+<<<<<<< HEAD:src/index.css
 
 /* .logo__container{
   margin-right: 8.8rem;
@@ -59,12 +70,15 @@ input:placeholder-shown {
 }
 
 .title h2{
+=======
+h2{
+>>>>>>> d8ffaa1d2eafbf2ec1e48063e968f23750bd466e:src/index.scss
   font-size: normal;
   font-weight: 700;
   font-size: 3.2rem;
 }
 
-.title p{
+ p {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -74,7 +88,16 @@ input:placeholder-shown {
   color: #575F6E;
 }
 
-.notification{
+
+
+.container {
+  max-width: calc(121.1rem + (1.6rem * 2));
+  margin: 0 auto;
+  padding: 0 1.6rem;
+}
+
+
+.notification {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -86,12 +109,15 @@ input:placeholder-shown {
 }
 
 
-.form-cadastro__parceiro{
+.form-cadastro__parceiro {
   display: flex;
   flex-direction: column;
+<<<<<<< HEAD:src/index.css
 
+=======
+>>>>>>> d8ffaa1d2eafbf2ec1e48063e968f23750bd466e:src/index.scss
   align-items: flex-start;
-  
+
   padding: 0.8rem 0rem 0rem;
   gap: 3rem;
 
@@ -99,7 +125,7 @@ input:placeholder-shown {
 
 }
 
-.form-cadastro__parceiro-inputs{
+.form-cadastro__parceiro-inputs {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -110,7 +136,7 @@ input:placeholder-shown {
   border-radius: 0.8rem;
 }
 
-.title__endereco{
+.title__endereco {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
@@ -119,7 +145,7 @@ input:placeholder-shown {
   color: #242731;
 }
 
-.texto__endereco{
+.texto__endereco {
   font-weight: 400;
   font-size: 1.4rem;
   line-height: 1.6rem;
@@ -127,14 +153,14 @@ input:placeholder-shown {
   color: #575F6E;
 }
 
-.container__numero__bairro{
+.container__numero__bairro {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   gap: 3.2rem;
 }
 
-.estado__caixa{
+.estado__caixa {
 
   color: #242426;
   font-size: 1.4rem;
@@ -152,7 +178,11 @@ input:placeholder-shown {
 
 }
 
+<<<<<<< HEAD:src/index.css
 .muted__button{
+=======
+.muted__button {
+>>>>>>> d8ffaa1d2eafbf2ec1e48063e968f23750bd466e:src/index.scss
   margin-right: 4.4rem;
   width: 4.8rem;
 } */

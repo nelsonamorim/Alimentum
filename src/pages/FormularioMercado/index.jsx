@@ -3,7 +3,9 @@ import logoAlimentum from '../../assets/form-mercado/logoAlimentum.png';
 import iconX from '../../assets/form-mercado/iconX.png';
 import barraDeProgresso from '../../assets/form-mercado/progressBar.png';
 import cadeado from '../../assets/form-mercado/cadeado.png';
+import {Link, useNavigate} from 'react-router-dom';
 
+<<<<<<< HEAD
 import './style.css';
 
 export default function FormularioMercado() {
@@ -11,6 +13,28 @@ export default function FormularioMercado() {
     <div className="container">
       <div className="logo__container">
         <img src={logoAlimentum} alt="" />
+=======
+function FormularioMercado() {
+
+  const navigate = useNavigate();
+
+  const toLogin = () => {
+    navigate ('/login');
+  }
+
+  const toHome = () => {
+    navigate ('/home');
+  }
+
+  return(
+  <div className="container__formulario">    
+    <div className="logo__container">
+      <img src={logoAlimentum} className='img__logo-alimentum' alt="" />
+    </div>
+    <form className="form-cadastro__parceiro" method="post" action="">
+      <div className="progress__bar">
+        <img src={barraDeProgresso} alt="barra de progresso" />
+>>>>>>> d8ffaa1d2eafbf2ec1e48063e968f23750bd466e
       </div>
       <form className="form-cadastro__parceiro" method="post" action="">
         <div className="progress__bar">
@@ -154,11 +178,66 @@ export default function FormularioMercado() {
             </select>
           </div>
         </div>
+<<<<<<< HEAD
       </form>
       <div className="muted__button">
         <img src={iconX} alt="" />
       </div>
     </div>);
+=======
+        <div className="cidade">
+          <label htmlFor="bairro">Cidade</label>
+          <input
+            type="text"
+            id="cidade"
+            name="cidade"
+            placeholder="sua resposta"
+          />
+        </div>
+        <div className="estado">
+          <label htmlFor="bairro">Estado/UF</label>
+          <select id="estado" className="estado__caixa" name="estado">
+            <option value="seta" selected="" />
+            <option value="AC">AC</option>
+            <option value="AL">AL</option>
+            <option value="AP">AP</option>
+            <option value="AM">AM</option>
+            <option value="BA">BA</option>
+            <option value="CE">CE</option>
+            <option value="DF">DF</option>
+            <option value="ES">ES</option>
+            <option value="GO">GO</option>
+            <option value="MA">MA</option>
+            <option value="MT">MT</option>
+            <option value="MS">MS</option>
+            <option value="MG">MG</option>
+            <option value="PA">PA</option>
+            <option value="PB">PB</option>
+            <option value="PR">PR</option>
+            <option value="PE">PE</option>
+            <option value="PI">PI</option>
+            <option value="RJ">RJ</option>
+            <option value="RN">RN</option>
+            <option value="RS">RS</option>
+            <option value="RO">RO</option>
+            <option value="RR">RR</option>
+            <option value="SC">SC</option>
+            <option value="SP">SP</option>
+            <option value="SE">SE</option>
+            <option value="TO">TO</option>
+          </select>
+        </div>
+        <button className='btn-enviar-formulario' onClick = {toLogin}>Enviar</button>
+      </div>
+    </form>
+    <div className="muted__button" onClick = {toHome}>
+      <img src={iconX} alt="" />
+    </div>
+  </div>
+  );
+  
+  
+>>>>>>> d8ffaa1d2eafbf2ec1e48063e968f23750bd466e
 }
 
 
