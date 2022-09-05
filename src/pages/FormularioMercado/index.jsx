@@ -13,10 +13,14 @@ function FormularioMercado() {
     navigate ('/login');
   }
 
+  const toHome = () => {
+    navigate ('/home');
+  }
+
   return(
-  <div className="container">
+  <div className="container__formulario">    
     <div className="logo__container">
-      <img src={logoAlimentum} alt="" />
+      <img src={logoAlimentum} className='img__logo-alimentum' alt="" />
     </div>
     <form className="form-cadastro__parceiro" method="post" action="">
       <div className="progress__bar">
@@ -162,10 +166,12 @@ function FormularioMercado() {
         <button className='btn-enviar-formulario' onClick = {toLogin}>Enviar</button>
       </div>
     </form>
-    <div className="muted__button">
+    <div className="muted__button" onClick = {toHome}>
       <img src={iconX} alt="" />
     </div>
-  </div>);
+  </div>
+  );
+  
   
 }
 
