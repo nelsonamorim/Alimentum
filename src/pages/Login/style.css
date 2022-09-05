@@ -1,0 +1,149 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container-login {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	height: 100vh;
+	background: #F1F0F5;
+}
+
+.topo-login{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.duvidas-login{
+	display: flex;
+	padding:  20px;
+	align-items: center;
+}
+
+.logo-login{
+margin: 60px 0 50px 99px;
+
+}
+
+.icon-duvidas-login{
+	width: 38px;
+	height: 38px;
+	margin-right: 11px;
+	
+}
+
+
+.text-duvidas {
+	font-family: 'Poppins' , sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 18px;
+	letter-spacing: -0.01em;
+	color: #06B694;
+}
+
+.menu-login{
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu-form-login{
+	flex-direction: column;
+	padding-left: 90px;
+}
+
+.title-form-login{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 130%;
+
+	color: #06B694;
+}
+
+.formulario-menu-login{
+	display: flex;
+	flex-direction: column;
+	margin-top: 11px;
+}
+
+
+label[for="Email"],
+label[for="Password"],
+label.conectado {
+	width: 67px;
+	height: 18px;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	text-align: center;
+	color: #4e4b59;
+}
+
+.label-conectado {
+	width: 143px;
+	height: 18px;
+	padding: 10px;
+	margin-left: 25px;
+	margin-top: -25px;
+}
+
+
+.illustra{
+	width: 690px;
+	height: 654px;
+}
+
+.banner-login {
+	width: 690px;
+	height: 600px;
+	border-radius: 78px 0 0 78px;
+	/* object-fit: cover; */
+}
+
+.button-form-login{
+	width: 384px;
+	height: 56px;
+	outline: none;
+	background: #06B694;
+	border: none;
+	border-radius: 6px;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	letter-spacing: -0.005em;
+	color: #ffffff;
+	margin-top: 36px;
+	cursor: pointer;
+
+}
+
+.checkbox-form-login{
+	width: 24px;
+	height: 24px;
+	
+	border: 1px solid #04BDCC;
+	border-radius: 5px;
+}
+
+
+.input-form-login-email, .input-form-login-password {
+	width: 384px;
+	height: 56px;
+
+	border: 1px solid #06B694;
+	border-radius: 6px;
+
+	margin-bottom: 24px;
+}

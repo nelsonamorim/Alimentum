@@ -6,15 +6,22 @@ import rectangle from "../../assets/dashboard/rectangle-1.png";
 import elipseranking from "../../assets/dashboard/elipse-ranking.png";
 import award from "../../assets/dashboard/award.png";
 import awardstar from "../../assets/dashboard/award-star.png";
-import hortfruit from "../../assets/dashboard/hortfruit.png"
 
 import './style.css';
 
 export default function Dashboard(){
+
+  const navigate = useNavigate();
+
+  const toCatalogo = () => {
+    navigate ('/catalogo');
+  }
+
    return(
       <div className="container-dashboard">
   <section className="section_navigate">
     <span>
+      <img className="profile" src={elipse2} alt="foto" />
       <img className="logo" src={logo} alt="logo" />
     </span>
     <hr className="hr" />
@@ -22,11 +29,11 @@ export default function Dashboard(){
       <img className="icon" src={rectangle} alt="icon" />
       Home
     </a>
-    <a className="item-navigate" href="">
+    <a className="item-navigate item-navigate-ong" onClick = {toCatalogo}>
       <img className="icon" src={rectangle} alt="icon" />
       Sou ONG
     </a>
-    <a className="item-navigate" href="">
+    <a className="item-navigate item-navigate-empresa" onClick = {toCatalogo}>
       <img className="icon" src={rectangle} alt="icon" />
       Sou Empresa
     </a>
@@ -58,10 +65,7 @@ export default function Dashboard(){
         <p className="descricao_recado">
           Utilize o painel para gerenciar todas as suas doações e acompanhar
           suas comidas arrecadadas
-        </p> 
-          </div>
-        <div />
-        <img className="hortfruit" src={hortfruit} alt="" />
+
       </div>
       <div className="title-card">
         <h2 className="titulo_acesso-rapido">Acesso Rápido</h2>

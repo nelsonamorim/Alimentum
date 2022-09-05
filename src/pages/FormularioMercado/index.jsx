@@ -3,12 +3,30 @@ import logoAlimentum from '../../assets/form-mercado/logoAlimentum.png';
 import iconX from '../../assets/form-mercado/iconX.png';
 import barraDeProgresso from '../../assets/form-mercado/progressBar.png';
 import cadeado from '../../assets/form-mercado/cadeado.png';
+import {useNavigate} from 'react-router-dom';
+import CheckboxList from '../../components/CheckboxList';
+import RadioButton from '../../components/RadioButton';
+
+
+
+
 
 function FormularioMercado() {
+
+  const navigate = useNavigate();
+
+  const toLogin = () => {
+    navigate ('/login');
+  }
+
+  const toHome = () => {
+    navigate ('/home');
+  }
+
   return(
-  <div className="container">
+  <div className="container__formulario">    
     <div className="logo__container">
-      <img src={logoAlimentum} alt="" />
+      <img src={logoAlimentum} className='img__logo-alimentum' alt="" />
     </div>
     <form className="form-cadastro__parceiro" method="post" action="">
       <div className="progress__bar">
@@ -151,15 +169,38 @@ function FormularioMercado() {
             <option value="TO">TO</option>
           </select>
         </div>
+        <div className="checkbox-dias-da-semana-mercado">
+          <h3 className='title-checkbox__dias-da-semana-mercado'>Quais são os dias específicos para envio dos alimentos:
+          *</h3>
+          <CheckboxList />
+        </div>
+        <div className="horario-de-entrega">
+          <label 
+            htmlFor="horario-de-entrega">Qual horário de entrega?*
+          </label>
+          <RadioButton />
+
+          <input
+            type="text"
+            id="horario-entrega"
+            name="horario-entrega"
+            placeholder="sua resposta"
+          />
+        </div>
+        <button className='btn-enviar-formulario' onClick = {toLogin}>Enviar</button>
       </div>
     </form>
-    <div className="muted__button">
+    <div className="muted__button" onClick = {toHome}>
       <img src={iconX} alt="" />
     </div>
-  </div>);
+  </div>
+  );
+  
   
 }
 
 
 export default FormularioMercado;
+
+
 
