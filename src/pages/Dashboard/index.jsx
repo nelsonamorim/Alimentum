@@ -63,8 +63,9 @@ export default function Dashboard(){
         <div />
         <img className="hortfruit" src={hortfruit} alt="" />
       </div>
-
-      <h2 className="titulo_acesso-rapido">Acesso Rápido</h2>
+      <div className="title-card">
+        <h2 className="titulo_acesso-rapido">Acesso Rápido</h2>
+      </div>
         <ul className="card_acesso">
           <li className="card_acesso_itens">
             <img className="image_item" src={doar} alt="elipse" />

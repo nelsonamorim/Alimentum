@@ -155,6 +155,7 @@
   
 }
 
+
 .card_acesso_itens{
   display: flex;
   flex-direction: column;
@@ -267,7 +268,7 @@ font-size: 14px;
   justify-content: center;
   flex-wrap: wrap;
   position: relative;
-  top: 120px;
+  top: 20px;
   }
   .section_navigate{
     width: 80%;
@@ -282,27 +283,43 @@ font-size: 14px;
   }
   .saudacao{
     height: 100%;
+    
   }
 
   .hortfruit{
     position: relative;
     top: -130px;
+    margin-top: 10px;
+    width: 280px;
   }
   .search{
     width: 40%;
     position: relative;
-    left: 40%;
+    left: 30%;
   }
   .titulo_dashboard, .titulo_acesso-rapido{
     text-align: center;
-    top: 50%;
+    top: 40%;
+    padding: 0px;
   }
 .usuario{
-  width: 70%;
+  width: 90%;
   margin-top: 30px;
 }
 .ranking{
   margin: 0 auto;
+  position: relative;
+  top: 120px;
+  height: 400px;
+}
+.title-card{
+  position: relative;
+  top: 50px;
+}
+.card_acesso{
+  position: relative;
+  top: 50px;
+  gap: 20px;
 }
 }
 
