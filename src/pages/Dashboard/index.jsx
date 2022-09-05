@@ -6,9 +6,6 @@ import rectangle from "../../assets/dashboard/rectangle-1.png";
 import elipseranking from "../../assets/dashboard/elipse-ranking.png";
 import award from "../../assets/dashboard/award.png";
 import awardstar from "../../assets/dashboard/award-star.png";
-import elipse2 from '../../assets/dashboard/Ellipse 2.png'
-import hortfruit from '../../assets/dashboard/hortfruit.png'
-import {Link, useNavigate} from 'react-router-dom';
 
 import './style.css';
 
@@ -27,7 +24,7 @@ export default function Dashboard(){
       <img className="profile" src={elipse2} alt="foto" />
       <img className="logo" src={logo} alt="logo" />
     </span>
-    <hr />
+    <hr className="hr" />
     <a className="item-navigate-destaque" href="">
       <img className="icon" src={rectangle} alt="icon" />
       Home
@@ -68,29 +65,25 @@ export default function Dashboard(){
         <p className="descricao_recado">
           Utilize o painel para gerenciar todas as suas doações e acompanhar
           suas comidas arrecadadas
-        </p>
-      </div>
-       <div className="imagem-saudacao">
-        <img src={hortfruit} alt="imagem hortfruit" />
-      </div>
-    </div>
-    <h2 className="titulo_acesso-rapido">Acesso Rápido</h2>
 
-    <ul className="card_acesso">
-      <li className="card_acesso_itens">
-        <img className="image_item" src={doar} alt="elipse" />
-        <p className="descricao-acesso">Quero Doar</p>
-      </li>
-      <li className="card_acesso_itens">
-        <img className="image_item" src={delivery}  alt="elipse" />
-        <p className="descricao-acesso">Quero Receber</p>
-      </li>
-      <li className="card_acesso_itens">
-        <img className="image_item" src={elipse} alt="elipse" />
-        <p className="descricao-acesso">Catalogo</p>
-      </li>
-    </ul>
-
+      </div>
+      <div className="title-card">
+        <h2 className="titulo_acesso-rapido">Acesso Rápido</h2>
+      </div>
+        <ul className="card_acesso">
+          <li className="card_acesso_itens">
+            <img className="image_item" src={doar} alt="elipse" />
+            <p className="descricao-acesso">Quero Doar</p>
+          </li>
+          <li className="card_acesso_itens">
+            <img className="image_item" src={delivery}  alt="elipse" />
+            <p className="descricao-acesso">Quero Receber</p>
+          </li>
+          <li className="card_acesso_itens">
+            <img className="image_item" src={elipse} alt="elipse" />
+            <p className="descricao-acesso">Catalogo</p>
+          </li>
+        </ul>
   </main>
   <section className="ranking">
     <h3 className="titulo_ranking"> 🏆 Ranking</h3>

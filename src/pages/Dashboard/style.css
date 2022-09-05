@@ -9,12 +9,6 @@
    list-style: none;
  }
  .container-dashboard{
-   width: 100%;
-   height: 100vh;
-   background-color: #EBFFFB;
-   display: flex;
-   padding: 0 auto 10px;
-   justify-content: space-between;
  }
  .section_navigate{
    display: flex;
@@ -38,17 +32,25 @@
 .item-navigate-destaque{
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  color:#FFFFFF;
   font-size: 16px;
   list-style: none;
   text-decoration: none;
-  background:  #06B694;
   padding:15px ;
   border-radius:5px ;
   margin: 30px 20px;
   cursor: pointer;
 }
+.item-navigate-destaque:hover{
+  transition: all;
+  color: white;
+  background-color: #03836A;
+}
+.item-navigate:hover{
+  transition: all;
+  color: white;
+  background-color: #03836A;
+}
+
 .item-navigate{
   display: flex;
   align-items: center;
@@ -74,6 +76,7 @@
    align-items: center;
 
 }
+
 ::placeholder{
   padding-left: 20px;
   color: #06B694;
@@ -99,10 +102,18 @@
   color: #06B694;
   
 }
+.descricao_recado{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  
+  color: #FFFFFF;
+  
+}
 .recado-dashboard{
   display: flex;
-  flex-direction: row;
-  width: 740px;
+
   height: 207px;
   font-size: 16px;
   color: #FFFFFF;
@@ -116,22 +127,14 @@
   flex-direction: column;
   padding: 42px;
 }
-.imagem-saudacao{
-
-  width: 245px;
-  height: 229px;
-  top: 210px;
-  right: 32%;
-  position:fixed;
-  z-index: 3;
 
 
-}
-.descricao_recado{
-  width: 348px;
-  height: 72px;
   padding-top: 10px;
-  color: #FFFFFF;
+  color: #FFFFFF; 
+  position: relative;
+  top: -40px;
+  right: 15px;
+ 
 }
 .titulo_acesso-rapido{
   margin-bottom: 34px;
@@ -140,9 +143,12 @@
 }
 .card_acesso{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   
 }
+
+
 .card_acesso_itens{
   display: flex;
   flex-direction: column;
@@ -169,8 +175,11 @@
 
 }
 .ranking{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   width: 367px;
-  height: 100vh;
+
   background: linear-gradient(171.08deg, #06B694 -5.14%, #01D2CC 100%);
   padding:30px ;
 }
@@ -198,6 +207,7 @@
   line-height: 19px;
   color: #03836A;
 }
+
 .itens_ranking{
   display: flex;
   justify-content: space-around;
@@ -238,3 +248,71 @@ font-size: 14px;
 .kg{
   font-weight: bold;
 }
+
+@media (max-width: 450px){
+  .container-dashboard{
+    margin: 0 auto;
+    display: flex;
+  }
+  .main_dashboard{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  top: 20px;
+  }
+  .section_navigate{
+    width: 80%;
+    margin: 0;
+    padding: 0;
+  }
+  .recado-dashboard{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .saudacao{
+    height: 100%;
+    
+  }
+
+  .hortfruit{
+    position: relative;
+    top: -130px;
+    margin-top: 10px;
+    width: 280px;
+  }
+  .search{
+    width: 40%;
+    position: relative;
+    left: 30%;
+  }
+  .titulo_dashboard, .titulo_acesso-rapido{
+    text-align: center;
+    top: 40%;
+    padding: 0px;
+  }
+.usuario{
+  width: 90%;
+  margin-top: 30px;
+}
+.ranking{
+  margin: 0 auto;
+  position: relative;
+  top: 120px;
+  height: 400px;
+}
+.title-card{
+  position: relative;
+  top: 50px;
+}
+.card_acesso{
+  position: relative;
+  top: 50px;
+  gap: 20px;
+}
+}
+
