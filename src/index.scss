@@ -5,13 +5,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins';
+  
 }
-
-:root {
+:root{
   font-size: 62.5%;
 
 }
 
+.link-default,
+a {
+    text-decoration: none;
+    color: white;
+}
 
 h1,
 h2,
@@ -45,31 +51,13 @@ input:placeholder-shown {
   color: #E2E4E5;
 }
 
-
-.logo__container {
-  margin-right: 8.8rem;
-}
-
-.container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 4.4rem 4.4rem 4.4rem 8.8rem;
-
-  width: 100vw;
-
-
-  background: #FFFFFF;
-}
-
-.title h2 {
+h2{
   font-size: normal;
   font-weight: 700;
   font-size: 3.2rem;
 }
 
-.title p {
+ p {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -78,6 +66,15 @@ input:placeholder-shown {
 
   color: #575F6E;
 }
+
+
+
+.container {
+  max-width: calc(121.1rem + (1.6rem * 2));
+  margin: 0 auto;
+  padding: 0 1.6rem;
+}
+
 
 .notification {
   display: flex;
