@@ -150,8 +150,20 @@ h2{
   margin-top: 0.8rem;
 
   font-family: 'Inter', sans-serif;
+}
 
+.title-checkbox__dias-da-semana-mercado{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
 
+  display: flex;
+  align-items: center;
+
+  color: #242426;
 }
 
 
