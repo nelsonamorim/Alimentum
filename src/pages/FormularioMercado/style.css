@@ -40,23 +40,6 @@ input:placeholder-shown {
   color: #E2E4E5;
 }
 
-<<<<<<< HEAD
-.container{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 4.4rem 4.4rem 4.4rem 8.8rem;
-
-  width: 100vw;
-  
-  
-  background: #ffffff;
-}
-
-.logo__container{
-  margin-right: 8.8rem;
-=======
 
 .container__formulario{
   display: flex;
@@ -68,16 +51,11 @@ input:placeholder-shown {
   margin-left: 8.8rem;
   width: 31.3rem;
   height: 5.3rem;
->>>>>>> d8ffaa1d2eafbf2ec1e48063e968f23750bd466e
 }
 
 
 
-<<<<<<< HEAD
-.title h2{
-=======
 h2{
->>>>>>> d8ffaa1d2eafbf2ec1e48063e968f23750bd466e
   font-size: normal;
   font-weight: 700;
   font-size: 3.2rem;
@@ -174,8 +152,6 @@ h2{
   font-family: 'Inter', sans-serif;
 }
 
-<<<<<<< HEAD
-=======
 
 .btn-enviar-formulario{
   width: 98px;
@@ -191,7 +167,6 @@ h2{
   font-size: 16px;
 }
 
->>>>>>> d8ffaa1d2eafbf2ec1e48063e968f23750bd466e
 .muted__button{
   margin-top: 2.7rem;
   margin-right: 4.4rem;
