@@ -41,30 +41,27 @@ input:placeholder-shown {
 }
 
 
-.logo__container{
-  margin-right: 8.8rem;
-}
-
-.container{
+.container__formulario{
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 4.4rem 4.4rem 4.4rem 8.8rem;
-
-  width: 100vw;
-  
-  
-  /*background: #FFFFFF;*/
+  margin: 0 auto;
 }
 
-.title h2{
+.logo__container{
+  margin-top: 4.4rem;
+  margin-left: 8.8rem;
+  width: 31.3rem;
+  height: 5.3rem;
+}
+
+
+
+h2{
   font-size: normal;
   font-weight: 700;
   font-size: 3.2rem;
 }
 
-.title p{
+ p{
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -90,13 +87,17 @@ input:placeholder-shown {
   display: flex;
   flex-direction: column;
 
-  /* justify-content: center; */
+  justify-content: center;
   align-items: flex-start;
   
   padding: 0.8rem 0rem 0rem;
   gap: 3rem;
 
   width: 45.6rem;
+
+  margin-top: 4.4rem;
+  margin-left: 24.55rem;
+  margin-right: 24.55rem;
 
 }
 
@@ -149,13 +150,22 @@ input:placeholder-shown {
   margin-top: 0.8rem;
 
   font-family: 'Inter', sans-serif;
-
-
 }
-.muted__button{
-  margin-right: 4.4rem;
-  width: 4.8rem;
+
+.title-checkbox__dias-da-semana-mercado{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  display: flex;
+  align-items: center;
+
+  color: #242426;
 }
+
 
 .btn-enviar-formulario{
   width: 98px;
@@ -169,4 +179,11 @@ input:placeholder-shown {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
+}
+
+.muted__button{
+  margin-top: 2.7rem;
+  margin-right: 4.4rem;
+  width: 4.8rem;
+  cursor: pointer;
 }

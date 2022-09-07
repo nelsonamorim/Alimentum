@@ -6,6 +6,8 @@ import rectangle from "../../assets/dashboard/rectangle-1.png";
 import elipseranking from "../../assets/dashboard/elipse-ranking.png";
 import award from "../../assets/dashboard/award.png";
 import awardstar from "../../assets/dashboard/award-star.png";
+import elipse2 from '../../assets/dashboard/Ellipse 2.png'
+import hortfruit from '../../assets/dashboard/hortfruit.png'
 import {Link, useNavigate} from 'react-router-dom';
 
 import './style.css';
@@ -22,6 +24,7 @@ export default function Dashboard(){
       <div className="container-dashboard">
   <section className="section_navigate">
     <span>
+      <img className="profile" src={elipse2} alt="foto" />
       <img className="logo" src={logo} alt="logo" />
     </span>
     <hr />
@@ -66,7 +69,9 @@ export default function Dashboard(){
           Utilize o painel para gerenciar todas as suas doações e acompanhar
           suas comidas arrecadadas
         </p>
-        <div className="imagem-saudacao" />
+      </div>
+       <div className="imagem-saudacao">
+        <img src={hortfruit} alt="imagem hortfruit" />
       </div>
     </div>
     <h2 className="titulo_acesso-rapido">Acesso Rápido</h2>
