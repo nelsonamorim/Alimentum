@@ -54,8 +54,13 @@ export default function Dashboard(){
     </a> 
    
     <div className="usuario">
-      <p>Jane Doe</p>
-      <p>Admin ONG</p>
+      <div>
+        <img className='usuario-icon' src={elipseranking} alt="" />
+      </div>
+      <div>
+        <p className="usuario-text">Jane Doe</p>
+        <p className="usuario-text">Admin ONG</p>
+      </div>
     </div>
 
   </section>

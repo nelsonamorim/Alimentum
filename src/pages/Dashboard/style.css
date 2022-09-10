@@ -65,15 +65,18 @@
 }
 .usuario{
    margin-top: 200px;
-   background-image: url(../../assets/dashboard/elipse-ranking.png);
-   background-repeat: no-repeat;
-   background-size: contain;
-   background-position:16%;
    display: flex;
-   flex-direction: column;
    align-items: center;
-
+   margin-left: 20px;
+   padding-left: 20px;
 }
+
+.usuario-text{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
 ::placeholder{
   padding-left: 20px;
   color: #06B694;
@@ -90,6 +93,11 @@
   border-radius: 30px;
   margin-top: 42px;
 }
+
+.main_dashboard{
+  padding: 0 50px;
+}
+
 .titulo_dashboard{
   font-style: normal;
   font-weight: 700;
@@ -101,6 +109,7 @@
 }
 .recado-dashboard{
   display: flex;
+  position: relative;
   flex-direction: row;
   width: 740px;
   height: 207px;
@@ -117,15 +126,11 @@
   padding: 42px;
 }
 .imagem-saudacao{
-
+  position: absolute;
   width: 245px;
   height: 229px;
-  top: 210px;
-  right: 32%;
-  position:fixed;
-  z-index: 3;
-
-
+  top: -15%;
+  right: 9.5%;
 }
 .descricao_recado{
   width: 348px;
